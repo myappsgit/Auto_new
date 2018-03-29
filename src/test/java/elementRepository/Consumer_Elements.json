@@ -1,0 +1,57 @@
+{
+	"BUTTONS": {
+		"FacilitySearch": {
+			"path": "//i[@class='fa fa-search']"
+		}
+	},
+	"TEXT_FIELDS": {
+		"UpdateName": {
+			"id": "name_editDetails_input"
+		},
+		"DOB": {
+			"path": "//input[@class='selection ng-untouched ng-pristine ng-valid']"
+		},
+		"OldPassword": {
+			"id": "oldPassword_changePassword_input"
+		},
+		"NewPassword": {
+			"id": "newPassword_changePassword_input"
+		},
+		"ConfirmPassword": {
+			"id": "newCpassword_changePassword_input"
+		}
+	},
+	"DROPDOWNS": {
+		"SelectCity": {
+			"path": "//select[@class='ng-untouched ng-pristine ng-valid' and @formcontrolname='city']"
+		},
+		"SelectLocality": {
+			"path": "//select[@class='ng-untouched ng-pristine ng-valid' and @formcontrolname='locality']"
+		},
+		"SelectFacilityType": {
+			"path": "//select[@class='ng-untouched ng-pristine ng-valid' and @formcontrolname='facilityType']"
+		}
+	},
+	"MISC_ELEMENTS": {
+		"UserAccount": {
+			"path": "//li[@id='open_menu_li']"
+		},
+		"Videos": {
+			"path": "//li[@class='activeliColor firefinder-match']"
+		},
+		"Polls": {
+			"path": "//li[@class='_ngcontent-c5']"
+		},
+		"FirstAnswer": {
+			"path": "//span[@class='inner'][1]"
+		},
+		"PlayVideo": {
+			"path": "//div[@class='vg-overlay-play']"
+		}
+	},
+	"PAGES": {
+		"FacilityItems": {
+			"path": "//div[@class='facilityItemContainer']"
+		}
+	}
+}
