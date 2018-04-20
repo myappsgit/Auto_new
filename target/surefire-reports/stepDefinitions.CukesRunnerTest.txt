@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinitions.CukesRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 2, Errors: 0, Skipped: 12, Time elapsed: 409.575 s <<< FAILURE! - in stepDefinitions.CukesRunnerTest
+And I enter "8497995311" in the "SP Phone" field(Scenario: Verify Service Provider Sign Up)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Text Box: SP Phone Object Not found
+
+Scenario: Verify Service Provider Sign Up  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Text Box: SP Phone Object Not found
+

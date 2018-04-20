@@ -1,0 +1,17 @@
+# Created on 2018-04-20T17:20:40.797
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-04-20T17:21:02.498
+Unexpected IOException: 5,1,Scenario: Verify Coworking Facility Creation,Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(Scenario: Verify Coworking Facility Creation),null,null,null
+
+
+# Created on 2018-04-20T17:21:02.518
+Unexpected IOException: 6,1,Scenario: Verify Coworking Facility Creation,Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(Scenario: Verify Coworking Facility Creation),null,null,null
+
+

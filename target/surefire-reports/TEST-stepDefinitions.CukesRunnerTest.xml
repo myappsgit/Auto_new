@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDefinitions.CukesRunnerTest" time="409.575" tests="76" errors="0" skipped="12" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @Sanity --tags ~@donotrun"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\huddil automation\Automation_SP\Automation-SP\Automation-SP1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\huddil automation\Automation_SP\Automation-SP\Automation-SP1"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\aparna\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32;D:\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\android-sdk_r24.3.4-windows\android-sdk-windows\platform-tools\;C:\apache-maven-3.5.0\bin;C:\apache-maven-3.5.0\bin;C:\chrome driver;C:\Program Files (x86)\Skype\Phone\;C:\metasploit-framework\bin\;C:\Users\aparna\OWASP ZAP\webdriver\windows\64;C:\Python27;C:\Program Files\Git\cmd;C:\Program Files (x86)\HPE\Unified Functional Testing\bin;C:\Users\aparna\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\aparna\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\Java\jdk1.8.0_144\bin\;C:\Program Files (x86)\Nmap;C:\Users\aparna\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\aparna"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="aparna"/>
+    <property name="java.class.path" value="C:\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @Sanity --tags ~@donotrun"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I launch the &quot;Huddil&quot; web application" classname="Scenario: Verify Service Provider Sign Up" time="0.003"/>
+  <testcase name="And I click the &quot;Partner With Us&quot; button" classname="Scenario: Verify Service Provider Sign Up" time="0"/>
+  <testcase name="And I enter &quot;aparna&quot; in the &quot;SP Owner Name&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0.001"/>
+  <testcase name="And I enter &quot;password&quot; in the &quot;SP Password&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0"/>
+  <testcase name="And I enter &quot;password&quot; in the &quot;SP Conf Password&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0"/>
+  <testcase name="And I enter &quot;8497995311&quot; in the &quot;SP Phone&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <failure message="Text Box: SP Phone Object Not found" type="java.lang.AssertionError">java.lang.AssertionError: Text Box: SP Phone Object Not found
+</failure>
+    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at wrapper.SeleniumFunctions.explicitWait(SeleniumFunctions.java:182)
+	at support.Page.findTextBox(Page.java:386)
+	at support.Page.setTextBox(Page.java:416)
+	at stepDefinitions.GlobalStepdefs.enterInTheField(GlobalStepdefs.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 45 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at wrapper.SeleniumFunctions.explicitWait(SeleniumFunctions.java:182)
+	at wrapper.SeleniumFunctions.findElement(SeleniumFunctions.java:42)
+	at support.Page.findTextBox(Page.java:387)
+	at support.Page.setTextBox(Page.java:416)
+	at stepDefinitions.GlobalStepdefs.enterInTheField(GlobalStepdefs.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 46 more
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.cwiQWpiBBNtR, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=5452, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 9ae0b08a-6bd6-4694-961e-3326495cc87a
+*** Element info: {Using=xpath, value=//*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at wrapper.SeleniumFunctions.findElement(SeleniumFunctions.java:43)
+	at support.Page.findTextBox(Page.java:387)
+	at support.Page.setTextBox(Page.java:416)
+	at stepDefinitions.GlobalStepdefs.enterInTheField(GlobalStepdefs.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify Service Provider Sign Up" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <failure message="Text Box: SP Phone Object Not found" type="java.lang.AssertionError">java.lang.AssertionError: Text Box: SP Phone Object Not found
+</failure>
+  </testcase>
+  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;SP Email&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;myappssolutions&quot; in the &quot;SP Website&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;bangalore&quot; in the &quot;SP Address&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;560037&quot; in the &quot;SP Pincode&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;marathalli&quot; in the &quot;SP City&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;Andhra Pradesh&quot; from the &quot;SPState&quot; dropdown" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;india&quot; in the &quot;SP Country&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I check the &quot;Sign Up Terms&quot; checkbox" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;SP Sign Up Submit&quot; button" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;10&quot; seconds" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the following elements should be displayed" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the element &quot;Con Enter OTP&quot; should be displayed" classname="Scenario: Verify Service Provider Sign Up" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I launch the &quot;Huddil&quot; web application" classname="Scenario: Verify facebook login fuctionality" time="0.01"/>
+  <testcase name="And I click the &quot;Login&quot; button" classname="Scenario: Verify facebook login fuctionality" time="0"/>
+  <testcase name="And I click the &quot;Facebook Login&quot; element" classname="Scenario: Verify facebook login fuctionality" time="0.03"/>
+  <testcase name="Scenario: Verify facebook login fuctionality" classname="Scenario: Verify facebook login fuctionality" time="0.03"/>
+  <testcase name="Given I launch the &quot;Huddil&quot; web application" classname="Scenario: Verify forgot password functionality" time="0"/>
+  <testcase name="And I click the &quot;Login&quot; button" classname="Scenario: Verify forgot password functionality" time="0"/>
+  <testcase name="And I click the &quot;Forgot Password&quot; element" classname="Scenario: Verify forgot password functionality" time="0"/>
+  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;Registered Email&quot; field" classname="Scenario: Verify forgot password functionality" time="0"/>
+  <testcase name="And I click the &quot;Reset My Password&quot; button" classname="Scenario: Verify forgot password functionality" time="0.01"/>
+  <testcase name="Scenario: Verify forgot password functionality" classname="Scenario: Verify forgot password functionality" time="0.01"/>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I click the &quot;Add Facility&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I select &quot;Conference Room&quot; from the &quot;Select Facility Type&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I click the &quot;Add Location&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
+  <testcase name="And I select &quot;Bangalore&quot; from the &quot;Select City&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I select &quot;JP Nagar&quot; from the &quot;Locality&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;bilekahalli&quot; in the &quot;Please Enter Name&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;dsr galleria&quot; in the &quot;Please Enter address&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;signal&quot; in the &quot;Please Enter landmark&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;incubex&quot; in the &quot;Please Enter nearBy&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;These terms and conditions, are subjected to change from time to time, shall apply to all our services&quot; in the &quot;Terms And Conditions&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I click the &quot;Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I select &quot;bilekahalli&quot; from the &quot;Building/Location&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;conference 999&quot; in the &quot;Facility Meeting Room Name&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Facility No Of Seats&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;1000&quot; in the &quot;Facility Area Size Sq&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;adding conference room&quot; in the &quot;Facility Description&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I wait &quot;30&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I check the following checkboxes" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
+  <testcase name="And I click the &quot;Next&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;10&quot; in the &quot;Cost Per Hour&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Cost Per Day&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;1000&quot; in the &quot;Cost Per Month&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I click the &quot;Offer Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;2018-03-2&quot; in the &quot;From&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;2018-03-2&quot; in the &quot;To&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Offer&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I click the &quot;Cancel Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;1&quot; in the &quot;No Of Days Before&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Deduction&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;2&quot; in the &quot;No Of Days Before2&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;20&quot; in the &quot;% Of Deduction2&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;3&quot; in the &quot;No Of Days Before3&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
+  <testcase name="And I enter &quot;30&quot; in the &quot;% Of Deduction3&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;8497995311&quot; in the &quot;Sp Contact Number&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;Sp Email&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I select &quot;Both&quot; from the &quot;Payment Mode&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I check the &quot;Request Huddil Verfication&quot; checkbox" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I click the &quot;Next2&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="And I click the &quot;Submit&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="Then I click the &quot;Success OK&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
+  <testcase name="Scenario: Verify Conference Facility Creation" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
+</testsuite>

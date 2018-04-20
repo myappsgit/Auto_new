@@ -1,0 +1,6 @@
+#surefire_0
+#Tue Apr 17 17:26:09 IST 2018
+user.dir=D\:\\huddil automation\\Automation_SP\\Automation-SP\\Automation-SP1
+cucumber.options=--tags @Sanity --tags ~@donotrun
+localRepository=C\:\\Users\\aparna\\.m2\\repository
+basedir=D\:\\huddil automation\\Automation_SP\\Automation-SP\\Automation-SP1
