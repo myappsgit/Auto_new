@@ -19,6 +19,7 @@ public class GlobalConstants {
 	public static JSONObject jsonObjConsumerElements;
 	public static JSONObject jsonObjServiceProviderElements;
 
+
 	private static Logger log;
 	public static String frameValue = "";
 	

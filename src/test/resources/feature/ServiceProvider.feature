@@ -1,7 +1,7 @@
 Feature: Service Provider
 
     Background:
-        Given I am logged into the application with user "myappssolutions32@gmail.com" and password "password"
+        Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"
         And I wait "20" seconds
         Then the "Service Provider" page should load
 
@@ -22,17 +22,17 @@ Feature: Service Provider
         And I click the "Add" button
         Then I click the "OK" button
         And I select "bilekahalli" from the "Building/Location" dropdown
-        And I enter "conference 12" in the "Facility Meeting Room Name" field
+        And I enter "conference 999" in the "Facility Meeting Room Name" field
         And I enter "100" in the "Facility No Of Seats" field
         And I enter "1000" in the "Facility Area Size Sq" field
         And I enter "adding conference room" in the "Facility Description" field
-        And I click the "Image Upload" element
-        And I upload the "Image 1" file
-        And I click the "Image Upload" element
-        And I upload the "Image 2" file
-        And I click the "Image Upload" element
-        And I upload the "Image 3" file
-        And I wait "20" seconds
+#        And I click the "Image Upload" element
+#        And I upload the "Image 1" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 2" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 3" file
+        And I wait "30" seconds
         And I check the following checkboxes
             | Power Backup |
             | WiFi         |
@@ -73,25 +73,25 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify  conference Block Facility
         When I click the "Facility" element
-#        And I enter "conf 1" in the "Facility Title" field
-#        Then I click the "Search" button
-#        And I wait "5" seconds
-        Then I select the facility "conf 1"
+        And I enter "conference 1" in the "Facility Title" field
+        Then I click the "Search" button
+        And I wait "5" seconds
+        Then I select the facility "conference 1"
         And I wait "3" seconds
         And I click the "Manage Facility" button
         And I wait "5" seconds
         And I select the "Block Facility" radiobutton
-        And I enter "2018-04-10 18:00:00" in the "From Date" field
-        And I enter "2018-04-10 19:00:00" in the "To Date" field
+        And I enter "2018-04-20 18:00:00" in the "From Date" field
+        And I enter "2018-04-30 19:00:00" in the "To Date" field
         And I click the "Block Facility" button
 
     @Sanity
     Scenario: Verify  conference Deactivate Facility
         When I click the "Facility" element
-        And I enter "conference 2" in the "Facility Title" field
+        And I enter "conf 3" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "conference 2"
+        Then I select the facility "conf 3"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Deactivate Facility" radiobutton
@@ -104,10 +104,10 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify  conference Activate Facility
         When I click the "Facility" element
-        And I enter "conference 2" in the "Facility Title" field
+        And I enter "conf 3" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "conference 2"
+        Then I select the facility "conf 3"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Activate Facility" radiobutton
@@ -119,9 +119,9 @@ Feature: Service Provider
     Scenario: Verify  conference Price Details Facility
 
         When I click the "Facility" element
-        And I enter "conference 11" in the "Facility Title" field
+        And I enter "conf 3" in the "Facility Title" field
         Then I click the "Search" button
-        Then I select the facility "conference 11"
+        Then I select the facility "conf 3"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Price Details" radiobutton
@@ -140,7 +140,7 @@ Feature: Service Provider
         And I select "Denied" from the "Select Status" dropdown
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "conference 10"
+        Then I select the facility "conference 12"
         Then I click the "Edit" button
         And I enter "100" in the "Facility No Of Seats" field
         And I wait "20" seconds
@@ -152,10 +152,10 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify conference cancelled booking
         When I click the "Booking" element
-        And I enter "143" in the "Booking Id" field
+        And I enter "305" in the "Booking Id" field
         Then I click the "Search" button
         And I wait "5" seconds
-        And I click the element with booking id "140" and booking status "Confirmed"
+        And I click the element with booking id "305" and booking status "Confirmed"
         And I click the "Cancel Booking" button
         Then I click the "YES" button
         Then I click the "Success OK" button
@@ -176,17 +176,17 @@ Feature: Service Provider
         And I click the "Add" button
         Then I click the "OK" button
         And I select "bilekahalli" from the "Building/Location" dropdown
-        And I enter "coworking 11" in the "Facility Meeting Room Name" field
+        And I enter "coworking 888" in the "Facility Meeting Room Name" field
         And I enter "100" in the "Facility No Of Seats" field
         And I enter "1000" in the "Facility Area Size Sq" field
         And I enter "adding coworking room" in the "Facility Description" field
-        And I click the "Image Upload" element
-        And I upload the "Image 1" file
-        And I click the "Image Upload" element
-        And I upload the "Image 2" file
-        And I click the "Image Upload" element
-        And I upload the "Image 3" file
-        And I wait "20" seconds
+#        And I click the "Image Upload" element
+#        And I upload the "Image 1" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 2" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 3" file
+        And I wait "30" seconds
         And I check the following checkboxes
             | WiFi         |
             | Car Parking  |
@@ -227,24 +227,24 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify cowork Block Facility
         When I click the "Facility" element
-        And I enter "conf 1" in the "Facility Title" field
+        And I enter "cowork-3" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "incubex"
+        Then I select the facility "cowork-3"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Block Facility" radiobutton
         And I enter "2018-04-20 18:00:00" in the "From Date" field
-        And I enter "2018-04-21 19:00:00" in the "To Date" field
+        And I enter "2018-04-28 19:00:00" in the "To Date" field
         And I click the "Block Facility" button
 
     @Sanity
     Scenario: Verify cowork Deactivate Facility
         When I click the "Facility" element
-        And I enter "cowork 1" in the "Facility Title" field
+        And I enter "cowork-4" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "cowork 1"
+        Then I select the facility "cowork-4"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Deactivate Facility" radiobutton
@@ -257,10 +257,10 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify cowork Activate Facility
         When I click the "Facility" element
-        And I enter "cowork 1" in the "Facility Title" field
+        And I enter "cowork-4" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "cowork 1"
+        Then I select the facility "cowork-4"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Activate Facility" radiobutton
@@ -268,26 +268,26 @@ Feature: Service Provider
         And I wait "10" seconds
         Then I click the "OK" button
 
-#    @Sanity
-#    Scenario: Verify cowork Price Details Facility
-#        When I click the "Facility" element
-#        And I enter "cowork 1" in the "Facility Title" field
-#        Then I click the "Search" button
-#        Then I select the facility "cowork 1"
-#        And I click the "Manage Facility" button
-#        And I select the "Price Details" radiobutton
-#        And I enter "100" in the "Update Cost Per Day" field
-#        And I enter "1000" in the "Update Cost Per Month" field
-#        Then I click the "Update Price" button
-#        Then I click the "OK" button
+    @Sanity
+    Scenario: Verify cowork Price Details Facility
+        When I click the "Facility" element
+        And I enter "cowork-4" in the "Facility Title" field
+        Then I click the "Search" button
+        Then I select the facility "cowork-4"
+        And I click the "Manage Facility" button
+        And I select the "Price Details" radiobutton
+        And I enter "100" in the "Update Cost Per Day" field
+        And I enter "1000" in the "Update Cost Per Month" field
+        Then I click the "Update Price" button
+        Then I click the "OK" button
 
     @Sanity
     Scenario: Verify cowork booking pending
         When I click the "Booking" element
-        And I enter "123" in the "Booking Id" field
+        And I enter "323" in the "Booking Id" field
         Then I click the "Search" button
         And I wait "10" seconds
-        And I click the element with booking id "123" and booking status "Pending"
+        And I click the element with booking id "323" and booking status "Pending"
         And I click the "Confirm" button
         Then I click the "OK" button
 
@@ -300,7 +300,7 @@ Feature: Service Provider
         And I select "Denied" from the "Select Status" dropdown
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "cowork"
+        Then I select the facility "cowork 678"
         Then I click the "Edit" button
         And I enter "10" in the "Facility No Of Seats" field
         And I wait "20" seconds
@@ -312,10 +312,10 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify  coworking space cancelled booking
         When I click the "Booking" element
-        And I enter "120" in the "Booking Id" field
+        And I enter "277" in the "Booking Id" field
         Then I click the "Search" button
         And I wait "5" seconds
-        And I click the element with booking id "120" and booking status "Confirmed"
+        And I click the element with booking id "277" and booking status "Confirmed"
         And I click the "Cancel Booking" button
         Then I click the "YES" button
         Then I click the "Success OK" button
@@ -341,13 +341,13 @@ Feature: Service Provider
         And I enter "100" in the "Facility No Of Seats" field
         And I enter "1000" in the "Facility Area Size Sq" field
         And I enter "adding meeting room" in the "Facility Description" field
-        And I click the "Image Upload" element
-        And I upload the "Image 1" file
-        And I click the "Image Upload" element
-        And I upload the "Image 2" file
-        And I click the "Image Upload" element
-        And I upload the "Image 3" file
-        And I wait "20" seconds
+#        And I click the "Image Upload" element
+#        And I upload the "Image 1" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 2" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 3" file
+        And I wait "30" seconds
         And I check the following checkboxes
             | WiFi         |
             | Car Parking  |
@@ -389,24 +389,24 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify meeting Block Facility
         When I click the "Facility" element
-        And I enter "meeting 1" in the "Facility Title" field
+        And I enter "meeting 10" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "meeting 1"
+        Then I select the facility "meeting 10"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Block Facility" radiobutton
-        And I enter "2018-03-11 18:00:00" in the "From Date" field
-        And I enter "2018-03-11 19:00:00" in the "To Date" field
+        And I enter "2018-05-20 18:00:00" in the "From Date" field
+        And I enter "2018-05-30 19:00:00" in the "To Date" field
         And I click the "Block Facility" button
 
     @Sanity
     Scenario: Verify meeting Deactivate Facility
         When I click the "Facility" element
-        And I enter "meeting 1" in the "Facility Title" field
+        And I enter "meeting 10" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "meeting 1"
+        Then I select the facility "meeting 10"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Deactivate Facility" radiobutton
@@ -419,10 +419,10 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify meeting Activate Facility
         When I click the "Facility" element
-        And I enter "meeting 1" in the "Facility Title" field
+        And I enter "meeting 10" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "meeting 1"
+        Then I select the facility "meeting 10"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Activate Facility" radiobutton
@@ -430,17 +430,17 @@ Feature: Service Provider
         And I wait "10" seconds
         Then I click the "OK" button
 
-#    @Sanity
-#    Scenario: Verify meeting Price Details Facility
-#        When I click the "Facility" element
-#        Then I select the facility "meeting 1"
-#        And I click the "Manage Facility" button
-#        And I select the "Price Details" radiobutton
-#        And I enter "10" in the "Update Cost Per Hour" field
-#        And I enter "100" in the "Update Cost Per Day" field
-#        And I enter "1000" in the "Update Cost Per Month" field
-#        Then I click the "Update Price" button
-#        Then I click the "OK" button
+    @Sanity
+    Scenario: Verify meeting Price Details Facility
+        When I click the "Facility" element
+        Then I select the facility "meeting 10"
+        And I click the "Manage Facility" button
+        And I select the "Price Details" radiobutton
+        And I enter "10" in the "Update Cost Per Hour" field
+        And I enter "100" in the "Update Cost Per Day" field
+        And I enter "1000" in the "Update Cost Per Month" field
+        Then I click the "Update Price" button
+        Then I click the "OK" button
 
     @Sanity
     Scenario: Verify meeting facility edit
@@ -450,7 +450,7 @@ Feature: Service Provider
         And I select "Denied" from the "Select Status" dropdown
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "meeting 1"
+        Then I select the facility "meeting 987"
         Then I click the "Edit" button
         And I enter "10" in the "Facility No Of Seats" field
         And I wait "20" seconds
@@ -462,10 +462,10 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify  meeting room cancelled booking
         When I click the "Booking" element
-        And I enter "145" in the "Booking Id" field
+        And I enter "321" in the "Booking Id" field
         Then I click the "Search" button
         And I wait "5" seconds
-        And I click the element with booking id "145" and booking status "Confirmed"
+        And I click the element with booking id "321" and booking status "Confirmed"
         And I click the "Cancel Booking" button
         Then I click the "YES" button
         Then I click the "Success OK" button
@@ -490,12 +490,12 @@ Feature: Service Provider
         And I enter "100" in the "Facility No Of Seats" field
         And I enter "1000" in the "Facility Area Size Sq" field
         And I enter "booking conference room" in the "Facility Description" field
-        And I click the "Image Upload" element
-        And I upload the "Image 1" file
-        And I click the "Image Upload" element
-        And I upload the "Image 2" file
-        And I click the "Image Upload" element
-        And I upload the "Image 3" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 1" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 2" file
+#        And I click the "Image Upload" element
+#        And I upload the "Image 3" file
         And I wait "30" seconds
         And I check the following checkboxes
             | WiFi         |
@@ -538,24 +538,24 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify training Block Facility
         When I click the "Facility" element
-        And I enter "training 3" in the "Facility Title" field
+        And I enter "training 10" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "training 3"
+        Then I select the facility "training 10"
         And I click the "Manage Facility" button
         And I wait "10" seconds
         And I select the "Block Facility" radiobutton
-        And I enter "2018-03-11 18:00:00" in the "From Date" field
-        And I enter "2018-03-11 19:00:00" in the "To Date" field
+        And I enter "2018-05-20 18:00:00" in the "From Date" field
+        And I enter "2018-05-28 19:00:00" in the "To Date" field
         And I click the "Block Facility" button
 
     @Sanity
     Scenario: Verify training Deactivate Facility
         When I click the "Facility" element
-        And I enter "training 3" in the "Facility Title" field
+        And I enter "training 10" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "training 3"
+        Then I select the facility "training 10"
         And I click the "Manage Facility" button
         And I wait "20" seconds
         And I select the "Deactivate Facility" radiobutton
@@ -571,7 +571,7 @@ Feature: Service Provider
         And I enter "training 3" in the "Facility Title" field
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "training 3"
+        Then I select the facility "training 10"
         And I click the "Manage Facility" button
         And I wait "20" seconds
         And I select the "Activate Facility" radiobutton
@@ -579,17 +579,17 @@ Feature: Service Provider
         And I wait "10" seconds
         Then I click the "OK" button
 
-#    @Sanity
-#    Scenario: Verify training Price Details Facility
-#        When I click the "Facility" element
-#        Then I select the facility "training 3"
-#        And I click the "Manage Facility" button
-#        And I select the "Price Details" radiobutton
-#        And I enter "10" in the "Update Cost Per Hour" field
-#        And I enter "100" in the "Update Cost Per Day" field
-#        And I enter "1000" in the "Update Cost Per Month" field
-#        Then I click the "Update Price" button
-#        Then I click the "OK" button
+    @Sanity
+    Scenario: Verify training Price Details Facility
+        When I click the "Facility" element
+        Then I select the facility "training 10"
+        And I click the "Manage Facility" button
+        And I select the "Price Details" radiobutton
+        And I enter "10" in the "Update Cost Per Hour" field
+        And I enter "100" in the "Update Cost Per Day" field
+        And I enter "1000" in the "Update Cost Per Month" field
+        Then I click the "Update Price" button
+        Then I click the "OK" button
 
     @Sanity
     Scenario: Verify training facility edit
@@ -599,7 +599,7 @@ Feature: Service Provider
         And I select "Denied" from the "Select Status" dropdown
         Then I click the "Search" button
         And I wait "5" seconds
-        Then I select the facility "training 6"
+        Then I select the facility "training 78"
         Then I click the "Edit" button
         And I enter "100" in the "Facility No Of Seats" field
         And I wait "20" seconds
@@ -611,10 +611,10 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify  training room cancelled booking
         When I click the "Booking" element
-        And I enter "146" in the "Booking Id" field
+        And I enter "322" in the "Booking Id" field
         Then I click the "Search" button
         And I wait "5" seconds
-        And I click the element with booking id "146" and booking status "Confirmed"
+        And I click the element with booking id "322" and booking status "Confirmed"
         And I click the "Cancel Booking" button
         Then I click the "YES" button
         Then I click the "Success OK" button
@@ -623,7 +623,7 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify  Facility search
         When I click the "Facility" element
-        And I enter "conf 1" in the "Facility Title" field
+        And I enter "conference 10" in the "Facility Title" field
         Then I click the "Search" button
 
     @Sanity
@@ -651,7 +651,7 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify  Booking id search
         When I click the "Booking" element
-        And I enter "100" in the "Booking Id" field
+        And I enter "322" in the "Booking Id" field
         Then I click the "Search" button
 
     @Sanity
@@ -686,7 +686,7 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify google map drop down
         When I click the "Facility" element
-        And I enter "training G" in the "Facility Title" field
+        And I enter "training 10" in the "Facility Title" field
         Then I click the "Search" button
         Then I select the facility "training G"
         And I select "ATM" from the "Whats Around" dropdown
@@ -695,9 +695,9 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify reviews for perticular facility
         When I click the "Facility" element
-        And I enter "training G" in the "Facility Title" field
+        And I enter "training 10" in the "Facility Title" field
         Then I click the "Search" button
-        Then I select the facility "training G"
+        Then I select the facility "training 10"
         When I click the "Reviews" element
         When I click the "Reviews TC" element
 
@@ -733,7 +733,7 @@ Feature: Service Provider
     @Sanity
     Scenario: Verify more amenities Facility
         When I click the "Facility" element
-        And I enter "conference 11" in the "Facility Title" field
+        And I enter "conference 10" in the "Facility Title" field
         Then I click the "Search" button
         When I click the "More" element
 
@@ -762,18 +762,18 @@ Feature: Service Provider
     Scenario: Verify change password functionality
         When I click the "User Name" element
         And I click the "Change Password" element
-        And I enter "password" in the "Old Password" field
-        And I enter "password1" in the "New Password" field
-        And I enter "password1" in the "Confirm Password" field
+        And I enter "password1" in the "Old Password" field
+        And I enter "password" in the "New Password" field
+        And I enter "password" in the "Confirm Password" field
         And I click the "Save Changes" button
         Then I click the "OK" button
 
 
-    @Sanity
-    Scenario: Verify modify saved Facility
-        When I click the "Facility" element
-        And I click the "Add Facility" button
-        And I click the "modify" button with Facility Name "conf R"
+#    @Sanity
+#    Scenario: Verify modify saved Facility
+#        When I click the "Facility" element
+#        And I click the "Add Facility" button
+#        And I click the "modify" button with Facility Name "conf R"
 
 
 

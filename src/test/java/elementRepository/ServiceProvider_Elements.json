@@ -277,7 +277,7 @@
             "path":"//p[text()='Block facility']/parent::div//preceding-sibling::input"
         },
         "PriceDetails": {
-            "path":"//p[text()='Price Details']/parent::div//preceding-sibling::input"
+            "id":"blockingradio_price"
         },
         "DeactivateFacility": {
             "id":"actiradio"

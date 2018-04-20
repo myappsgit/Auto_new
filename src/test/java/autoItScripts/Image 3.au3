@@ -16,13 +16,13 @@ ControlFocus ( "File Upload", "", "Edit1")
 
 ; Set the File name text on the Edit field
 
-ControlSetText("File Upload", "", "Edit1", "C:\Images\image3.jpg")
+ControlSetText("File Upload", "", "Edit1", "image3.jpg")
 
 ; Click on the Open button
 
 ControlClick("File Upload", "","Button1");
 
-;Send("C:\Images\image3.jpg")
+;Send("C:\Users\aparna\Desktop\Images\image3.jpg")
 
 ;Send("{ENTER}")
 
