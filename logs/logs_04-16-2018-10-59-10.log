@@ -1,0 +1,21 @@
+2018-04-16 10:59:10 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-16 10:59:10 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility starting.
+2018-04-16 10:59:10 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-16 10:59:10 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-16 10:59:10 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-16 10:59:10 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-16 10:59:10 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-16 10:59:10 INFO  rootLogger:228 - Initializing JSON files
+2018-04-16 10:59:10 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-16 10:59:18 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-16 10:59:18 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 7860. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-16 10:59:18 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-16 10:59:18 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-16 10:59:18 INFO  rootLogger:228 - get driver object
+2018-04-16 10:59:18 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-16 10:59:18 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-16 10:59:18 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility - Failed
+2018-04-16 10:59:18 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-16 10:59:20 INFO  rootLogger:228 - Browser closed
+2018-04-16 10:59:20 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-16 10:59:20 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility complete.

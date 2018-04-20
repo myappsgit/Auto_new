@@ -1,0 +1,121 @@
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 15:31:49 INFO  rootLogger:228 - Value to read: APP
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 15:31:49 INFO  rootLogger:228 - Value to read: SECTION
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 15:31:49 INFO  rootLogger:228 - Value to read: TAG_NAME
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 15:31:49 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 15:31:49 INFO  rootLogger:228 - KeyName: url
+2018-04-17 15:31:49 INFO  rootLogger:228 - Value: http://198.1.85.118
+2018-04-17 15:31:49 INFO  rootLogger:228 - Returning: http://198.1.85.118
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 15:31:49 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 15:31:49 INFO  rootLogger:228 - KeyName: username
+2018-04-17 15:31:49 INFO  rootLogger:228 - Value: sukanya.k@myapps-solutions.com
+2018-04-17 15:31:49 INFO  rootLogger:228 - Returning: sukanya.k@myapps-solutions.com
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 15:31:49 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 15:31:49 INFO  rootLogger:228 - KeyName: password
+2018-04-17 15:31:49 INFO  rootLogger:228 - Value: password
+2018-04-17 15:31:49 INFO  rootLogger:228 - Returning: password
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:31:49 INFO  rootLogger:228 - Scenario: Verify Service Provider Sign Up starting.
+2018-04-17 15:31:49 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Start
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-17 15:31:49 INFO  rootLogger:228 - Initializing JSON files
+2018-04-17 15:31:49 INFO  rootLogger:228 - Class: SetUpFile; Method: launchApplication
+2018-04-17 15:31:54 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:31:56 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:31:56 INFO  rootLogger:228 - Scenario: Verify Service Provider Sign Up complete.
+2018-04-17 15:31:56 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:31:56 INFO  rootLogger:228 - Scenario: Verify facebook login fuctionality starting.
+2018-04-17 15:31:56 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:31:56 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Start
+2018-04-17 15:31:56 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-17 15:31:56 INFO  rootLogger:228 - Initializing JSON files
+2018-04-17 15:31:56 INFO  rootLogger:228 - Class: SetUpFile; Method: launchApplication
+2018-04-17 15:31:58 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:32:00 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:32:00 INFO  rootLogger:228 - Scenario: Verify facebook login fuctionality complete.
+2018-04-17 15:32:00 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:32:00 INFO  rootLogger:228 - Scenario: Verify forgot password functionality starting.
+2018-04-17 15:32:00 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:32:00 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Start
+2018-04-17 15:32:00 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-17 15:32:00 INFO  rootLogger:228 - Initializing JSON files
+2018-04-17 15:32:00 INFO  rootLogger:228 - Class: SetUpFile; Method: launchApplication
+2018-04-17 15:32:02 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:32:04 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:32:04 INFO  rootLogger:228 - Scenario: Verify forgot password functionality complete.
+2018-04-17 15:32:04 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:32:04 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation starting.
+2018-04-17 15:32:04 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:32:04 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-17 15:32:04 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-17 15:32:04 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-17 15:32:04 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-17 15:32:04 INFO  rootLogger:228 - Initializing JSON files
+2018-04-17 15:32:04 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-17 15:32:06 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:32:08 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:32:08 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation complete.
+2018-04-17 15:32:08 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:32:08 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility starting.
+2018-04-17 15:32:08 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:32:08 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-17 15:32:08 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-17 15:32:08 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-17 15:32:08 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-17 15:32:10 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:32:12 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:32:12 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility complete.
+2018-04-17 15:32:12 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:32:12 INFO  rootLogger:228 - Scenario: Verify  conference Deactivate Facility starting.
+2018-04-17 15:32:12 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:32:12 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-17 15:32:12 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-17 15:32:12 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-17 15:32:12 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-17 15:32:14 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:32:16 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:32:16 INFO  rootLogger:228 - Scenario: Verify  conference Deactivate Facility complete.
+2018-04-17 15:32:16 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:32:16 INFO  rootLogger:228 - Scenario: Verify  conference Activate Facility starting.
+2018-04-17 15:32:16 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:32:16 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-17 15:32:16 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-17 15:32:16 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-17 15:32:16 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-17 15:32:18 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:32:21 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:32:21 INFO  rootLogger:228 - Scenario: Verify  conference Activate Facility complete.
+2018-04-17 15:32:21 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:32:21 INFO  rootLogger:228 - Scenario: Verify  conference Price Details Facility starting.
+2018-04-17 15:32:21 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:32:21 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-17 15:32:21 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-17 15:32:21 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-17 15:32:21 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-17 15:32:26 INFO  rootLogger:228 - ChromeDriver initialized
+2018-04-17 15:32:31 INFO  rootLogger:228 - Error getting child PID for chromedriver.exe from parent process 8496. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-17 15:32:31 INFO  rootLogger:228 - Error getting child PID for chrome.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-17 15:32:31 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-17 15:32:31 INFO  rootLogger:228 - get driver object
+2018-04-17 15:32:31 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-17 15:32:35 INFO  rootLogger:228 - URL: http://198.1.85.118 not present. ABORTING!!
+2018-04-17 15:32:35 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:32:35 INFO  rootLogger:228 - Scenario: Verify  conference Price Details Facility - Failed
+2018-04-17 15:32:35 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-17 15:32:40 INFO  rootLogger:228 - Browser closed
+2018-04-17 15:32:40 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-17 15:32:40 INFO  rootLogger:228 - Scenario: Verify  conference Price Details Facility complete.
+2018-04-17 15:32:40 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:32:40 INFO  rootLogger:228 - Scenario: Verify  conference facility edit starting.
+2018-04-17 15:32:40 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 15:32:40 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-17 15:32:40 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-17 15:32:40 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-17 15:32:40 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-17 15:32:42 INFO  rootLogger:228 - ChromeDriver initialized

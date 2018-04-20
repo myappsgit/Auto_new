@@ -1,0 +1,29 @@
+2018-04-16 17:49:25 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-04-16 17:49:25 INFO  rootLogger:230 - Scenario: Verify Conference Facility Creation starting.
+2018-04-16 17:49:25 INFO  rootLogger:230 - Scenario Tag Name: @Sanity
+2018-04-16 17:49:26 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-16 17:49:26 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-04-16 17:49:26 INFO  rootLogger:230 - userName: myappssolutions33@gmail.com
+2018-04-16 17:49:26 INFO  rootLogger:230 - Class: SetUpFile; Method: constructor
+2018-04-16 17:49:26 INFO  rootLogger:230 - Initializing JSON files
+2018-04-16 17:49:26 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-04-16 17:49:34 INFO  rootLogger:230 - Firefox driver initialized
+2018-04-16 17:49:34 INFO  rootLogger:230 - Error getting child PID for geckodriver.exe from parent process 7292. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-16 17:49:34 INFO  rootLogger:230 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-16 17:49:34 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-04-16 17:49:34 INFO  rootLogger:230 - get driver object
+2018-04-16 17:49:34 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-04-16 17:49:55 INFO  rootLogger:230 - Class: SetUpFile; Method: logInApplication
+2018-04-16 17:49:55 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 17:49:55 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 17:49:55 INFO  rootLogger:230 - Exception: null
+2018-04-16 17:49:55 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 17:49:55 INFO  rootLogger:230 - Exception: null
+2018-04-16 17:49:55 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 17:49:55 INFO  rootLogger:230 - Exception: null
+2018-04-16 17:49:55 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-16 17:49:55 INFO  rootLogger:230 - Scenario: Verify Conference Facility Creation - Failed
+2018-04-16 17:49:55 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-04-16 17:49:56 INFO  rootLogger:230 - Browser closed
+2018-04-16 17:49:56 INFO  rootLogger:230 - Tried to kill process with PID: 
+2018-04-16 17:49:56 INFO  rootLogger:230 - Scenario: Verify Conference Facility Creation complete.

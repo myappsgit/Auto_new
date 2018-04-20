@@ -1,0 +1,207 @@
+2018-04-16 11:26:37 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-16 11:26:37 INFO  rootLogger:228 - Scenario: Verify conference cancelled booking starting.
+2018-04-16 11:26:37 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-16 11:26:38 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-16 11:26:38 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-16 11:26:38 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-16 11:26:38 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-16 11:26:38 INFO  rootLogger:228 - Initializing JSON files
+2018-04-16 11:26:38 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-16 11:26:45 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-16 11:26:45 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 7180. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-16 11:26:46 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-16 11:26:46 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-16 11:26:46 INFO  rootLogger:228 - get driver object
+2018-04-16 11:26:46 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:26:58 INFO  rootLogger:228 - Return: username
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:26:58 INFO  rootLogger:228 - Return: password
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:26:58 INFO  rootLogger:228 - Return: null
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:26:58 INFO  rootLogger:228 - frame: 
+2018-04-16 11:26:58 INFO  rootLogger:228 - UserName: myappssolutions33@gmail.com entered
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:26:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:26:58 INFO  rootLogger:228 - frame: 
+2018-04-16 11:26:59 INFO  rootLogger:228 - Password: password1 entered
+2018-04-16 11:26:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:26:59 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-16 11:26:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-16 11:26:59 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-16 11:26:59 INFO  rootLogger:228 - switchType: xpath
+2018-04-16 11:26:59 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-16 11:26:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:26:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:26:59 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:02 INFO  rootLogger:228 - Login button clicked
+2018-04-16 11:27:02 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-16 11:27:02 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-16 11:27:02 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-16 11:27:02 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-16 11:27:02 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:02 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-16 11:27:02 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-16 11:27:22 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-16 11:27:22 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-16 11:27:22 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:22 INFO  rootLogger:228 - Exception: null
+2018-04-16 11:27:22 INFO  rootLogger:228 - Pane xpath: null
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-16 11:27:22 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:22 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:22 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-16 11:27:22 INFO  rootLogger:228 - Pagename: ServiceProvider
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-16 11:27:22 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: Page; Method: clickMiscElement
+2018-04-16 11:27:22 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-16 11:27:22 INFO  rootLogger:228 - ImageName: Booking
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:22 INFO  rootLogger:228 - Return: //p[text()='Booking']
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:22 INFO  rootLogger:228 - Return: //p[text()='Booking']
+2018-04-16 11:27:22 INFO  rootLogger:228 - xpath present
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:22 INFO  rootLogger:228 - frame: //p[text()='Booking'];xpath
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-16 11:27:22 INFO  rootLogger:228 - propField: //p[text()='Booking'];xpath
+2018-04-16 11:27:22 INFO  rootLogger:228 - switchType: xpath
+2018-04-16 11:27:22 INFO  rootLogger:228 - switchValue: //p[text()='Booking']
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:27:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:22 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:23 INFO  rootLogger:228 - Element: 'Booking' exist and clicked. Returning true.
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-16 11:27:23 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-16 11:27:23 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-16 11:27:23 INFO  rootLogger:228 - Text box field name: BookingId
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:23 INFO  rootLogger:228 - Return: null
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:23 INFO  rootLogger:228 - Return: input_bookingId
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:23 INFO  rootLogger:228 - Return: input_bookingId
+2018-04-16 11:27:23 INFO  rootLogger:228 - id present
+2018-04-16 11:27:23 INFO  rootLogger:228 - Text box textPath: input_bookingId
+2018-04-16 11:27:23 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-16 11:27:23 INFO  rootLogger:228 - Text box name: input_bookingId
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:23 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_bookingId' or @id='input_bookingId' or @testid='input_bookingId')];xpath
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-16 11:27:23 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_bookingId' or @id='input_bookingId' or @testid='input_bookingId')];xpath
+2018-04-16 11:27:23 INFO  rootLogger:228 - switchType: xpath
+2018-04-16 11:27:23 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_bookingId' or @id='input_bookingId' or @testid='input_bookingId')]
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:27:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:23 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:25 INFO  rootLogger:228 - Text box 'BookingId' object not null. Entered Value: '304'. Returning true.
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-16 11:27:25 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-16 11:27:25 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-16 11:27:25 INFO  rootLogger:228 - Button to be clicked: Search
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:25 INFO  rootLogger:228 - Return: null
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:25 INFO  rootLogger:228 - Return: button_search
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:25 INFO  rootLogger:228 - Return: button_search
+2018-04-16 11:27:25 INFO  rootLogger:228 - id present
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:25 INFO  rootLogger:228 - frame: button_search;id
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-16 11:27:25 INFO  rootLogger:228 - propField: button_search;id
+2018-04-16 11:27:25 INFO  rootLogger:228 - switchType: id
+2018-04-16 11:27:25 INFO  rootLogger:228 - switchValue: button_search
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:27:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:25 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:26 INFO  rootLogger:228 - Button 'Search' object not null and is clicked. Returning true.
+2018-04-16 11:27:26 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-16 11:27:26 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-16 11:27:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-16 11:27:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectBooking : Start
+2018-04-16 11:27:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-16 11:27:31 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:27:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:31 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:32 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //tr/descendant::td[text()='140' and following-sibling::td[text()='Confirmed']] (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-16 11:27:32 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: //tr/descendant::td[text()='140' and following-sibling::td[text()='Confirmed']]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.0y9xL0LF9FDa, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=7112, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: aee2cd12-3db0-46a4-9b34-0404686a5e03
+*** Element info: {Using=xpath, value=//tr/descendant::td[text()='140' and following-sibling::td[text()='Confirmed']]}
+2018-04-16 11:27:32 INFO  rootLogger:228 - Booking Id: 140 does not exists. Exception: null
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectBooking : Complete
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-16 11:27:32 INFO  rootLogger:228 - get driver object
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-16 11:27:32 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-16 11:27:32 INFO  rootLogger:228 - Button to be clicked: CancelBooking
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:32 INFO  rootLogger:228 - Return: null
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:32 INFO  rootLogger:228 - Return: button_cancelBooking3
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 11:27:32 INFO  rootLogger:228 - Return: button_cancelBooking3
+2018-04-16 11:27:32 INFO  rootLogger:228 - id present
+2018-04-16 11:27:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:32 INFO  rootLogger:228 - frame: button_cancelBooking3;id
+2018-04-16 11:27:43 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: button_cancelBooking3 (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-16 11:27:43 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-16 11:27:43 INFO  rootLogger:228 - propField: button_cancelBooking3;id
+2018-04-16 11:27:43 INFO  rootLogger:228 - switchType: id
+2018-04-16 11:27:43 INFO  rootLogger:228 - switchValue: button_cancelBooking3
+2018-04-16 11:27:43 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-16 11:27:43 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-16 11:27:43 INFO  rootLogger:228 - frame: 
+2018-04-16 11:27:44 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: button_cancelBooking3 (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-16 11:27:44 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: #button_cancelBooking3
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.0y9xL0LF9FDa, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=7112, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: aee2cd12-3db0-46a4-9b34-0404686a5e03
+*** Element info: {Using=id, value=button_cancelBooking3}
+2018-04-16 11:27:44 INFO  rootLogger:228 - Button 'CancelBooking' object null. Returning false.
+2018-04-16 11:27:44 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-16 11:27:44 INFO  rootLogger:228 - Scenario: Verify conference cancelled booking - Failed
+2018-04-16 11:27:44 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-16 11:27:45 INFO  rootLogger:228 - Browser closed
+2018-04-16 11:27:45 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-16 11:27:45 INFO  rootLogger:228 - Scenario: Verify conference cancelled booking complete.

@@ -1,0 +1,43 @@
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-04-16 16:51:21 INFO  rootLogger:230 - Scenario: login starting.
+2018-04-16 16:51:21 INFO  rootLogger:230 - Scenario Tag Name: @Sanity
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-04-16 16:51:21 INFO  rootLogger:230 - get driver object
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: Page; Method: setTextBox
+2018-04-16 16:51:21 INFO  rootLogger:230 - Current page name: 
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box field name: Email
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 16:51:21 INFO  rootLogger:230 - Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 16:51:21 INFO  rootLogger:230 - Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 16:51:21 INFO  rootLogger:230 - Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Unknown Element Type
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box textPath: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box textMethod: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: Page; Method: findTextBox
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box name: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Trying again. Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Recursive calling of the function.
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: Page; Method: setTextBox
+2018-04-16 16:51:21 INFO  rootLogger:230 - Current page name: 
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box field name: Email
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 16:51:21 INFO  rootLogger:230 - Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 16:51:21 INFO  rootLogger:230 - Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-16 16:51:21 INFO  rootLogger:230 - Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Unknown Element Type
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box textPath: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box textMethod: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: Page; Method: findTextBox
+2018-04-16 16:51:21 INFO  rootLogger:230 - Text box name: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Trying again. Exception: null
+2018-04-16 16:51:21 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-16 16:51:21 INFO  rootLogger:230 - Scenario: login complete.

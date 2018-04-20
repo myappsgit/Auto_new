@@ -1,0 +1,38 @@
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 14:46:08 INFO  rootLogger:228 - Value to read: APP
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 14:46:08 INFO  rootLogger:228 - Value to read: SECTION
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 14:46:08 INFO  rootLogger:228 - Value to read: TAG_NAME
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 14:46:08 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 14:46:08 INFO  rootLogger:228 - KeyName: url
+2018-04-17 14:46:08 INFO  rootLogger:228 - Value: http://198.1.85.118
+2018-04-17 14:46:08 INFO  rootLogger:228 - Returning: http://198.1.85.118
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 14:46:08 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 14:46:08 INFO  rootLogger:228 - KeyName: username
+2018-04-17 14:46:08 INFO  rootLogger:228 - Value: sukanya.k@myapps-solutions.com
+2018-04-17 14:46:08 INFO  rootLogger:228 - Returning: sukanya.k@myapps-solutions.com
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 14:46:08 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 14:46:08 INFO  rootLogger:228 - KeyName: password
+2018-04-17 14:46:08 INFO  rootLogger:228 - Value: password
+2018-04-17 14:46:08 INFO  rootLogger:228 - Returning: password
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 14:46:08 INFO  rootLogger:228 - Scenario: login starting.
+2018-04-17 14:46:08 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Start
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-17 14:46:08 INFO  rootLogger:228 - Initializing JSON files
+2018-04-17 14:46:08 INFO  rootLogger:228 - Class: SetUpFile; Method: launchApplication
+2018-04-17 14:46:16 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-17 14:46:17 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 7516. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-17 14:46:19 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-17 14:46:19 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-17 14:46:19 INFO  rootLogger:228 - get driver object
+2018-04-17 14:46:19 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-17 14:46:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-17 14:46:23 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 14:46:23 INFO  rootLogger:228 - Scenario: login - Failed
+2018-04-17 14:46:23 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot

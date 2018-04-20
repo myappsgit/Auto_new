@@ -6,7 +6,7 @@ Feature: Service Provider
         Then the "Service Provider" page should load
 
 
-    @Sanity
+    @Sanity1
     Scenario: Verify Conference Facility Creation
         When I click the "Facility" element
         And I click the "Add Facility" button
@@ -70,7 +70,7 @@ Feature: Service Provider
         Then I click the "Success OK" button
 
 
-    @Sanity
+    @Sanity1
     Scenario: Verify  conference Block Facility
         When I click the "Facility" element
         And I enter "conference 1" in the "Facility Title" field
@@ -85,7 +85,7 @@ Feature: Service Provider
         And I enter "2018-04-30 19:00:00" in the "To Date" field
         And I click the "Block Facility" button
 
-    @Sanity
+    @Sanity1
     Scenario: Verify  conference Deactivate Facility
         When I click the "Facility" element
         And I enter "conf 3" in the "Facility Title" field
@@ -101,7 +101,7 @@ Feature: Service Provider
         And I click the "Confirm" button
         Then I click the "OK" button
 
-    @Sanity
+    @Sanity1
     Scenario: Verify  conference Activate Facility
         When I click the "Facility" element
         And I enter "conf 3" in the "Facility Title" field
@@ -115,7 +115,7 @@ Feature: Service Provider
         And I wait "10" seconds
         Then I click the "OK" button
 
-    @Sanity
+    @Sanity1
     Scenario: Verify  conference Price Details Facility
 
         When I click the "Facility" element
@@ -132,7 +132,7 @@ Feature: Service Provider
         Then I click the "Update Price" button
         Then I click the "OK" button
 
-    @Sanity
+    @Sanity1
     Scenario: Verify  conference facility edit
         When I click the "Facility" element
         And I click the "Filter" button
@@ -149,7 +149,7 @@ Feature: Service Provider
         And I click the "Submit" button
         Then I click the "OK" button
 
-    @Sanity
+    @Sanity1
     Scenario: Verify conference cancelled booking
         When I click the "Booking" element
         And I enter "305" in the "Booking Id" field
@@ -161,7 +161,7 @@ Feature: Service Provider
         Then I click the "Success OK" button
 
 
-    @Sanity
+    @Sanity1
     Scenario: Verify Coworking Facility Creation
         When I click the "Facility" element
         And I click the "Add Facility" button

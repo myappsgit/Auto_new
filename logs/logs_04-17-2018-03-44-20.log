@@ -1,0 +1,1559 @@
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 15:44:20 INFO  rootLogger:228 - Value to read: APP
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 15:44:20 INFO  rootLogger:228 - Value to read: SECTION
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-17 15:44:20 INFO  rootLogger:228 - Value to read: TAG_NAME
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 15:44:20 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 15:44:20 INFO  rootLogger:228 - KeyName: url
+2018-04-17 15:44:20 INFO  rootLogger:228 - Value: http://198.1.85.118
+2018-04-17 15:44:20 INFO  rootLogger:228 - Returning: http://198.1.85.118
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 15:44:20 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 15:44:20 INFO  rootLogger:228 - KeyName: username
+2018-04-17 15:44:20 INFO  rootLogger:228 - Value: sukanya.k@myapps-solutions.com
+2018-04-17 15:44:20 INFO  rootLogger:228 - Returning: sukanya.k@myapps-solutions.com
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-17 15:44:20 INFO  rootLogger:228 - SectionName: Huddil
+2018-04-17 15:44:20 INFO  rootLogger:228 - KeyName: password
+2018-04-17 15:44:20 INFO  rootLogger:228 - Value: password
+2018-04-17 15:44:20 INFO  rootLogger:228 - Returning: password
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-17 15:44:20 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation starting.
+2018-04-17 15:44:20 INFO  rootLogger:228 - Scenario Tag Name: @Sanity1
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-17 15:44:20 INFO  rootLogger:228 - userName: myappssolutions33@gmail.com
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-17 15:44:20 INFO  rootLogger:228 - Initializing JSON files
+2018-04-17 15:44:20 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-17 15:44:29 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-17 15:44:29 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1420. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-17 15:44:29 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-17 15:44:29 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-17 15:44:29 INFO  rootLogger:228 - get driver object
+2018-04-17 15:44:29 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-17 15:44:53 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-17 15:44:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:44:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:44:53 INFO  rootLogger:228 - Return: username
+2018-04-17 15:44:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:44:53 INFO  rootLogger:228 - Return: password
+2018-04-17 15:44:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:44:53 INFO  rootLogger:228 - Return: null
+2018-04-17 15:44:53 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:44:53 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:44:53 INFO  rootLogger:228 - frame: 
+2018-04-17 15:44:54 INFO  rootLogger:228 - UserName: myappssolutions33@gmail.com entered
+2018-04-17 15:44:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:44:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:44:54 INFO  rootLogger:228 - frame: 
+2018-04-17 15:44:55 INFO  rootLogger:228 - Password: password1 entered
+2018-04-17 15:44:55 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:44:55 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-17 15:44:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:44:55 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-17 15:44:55 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:44:55 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-17 15:44:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:44:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:44:55 INFO  rootLogger:228 - frame: 
+2018-04-17 15:44:57 INFO  rootLogger:228 - Login button clicked
+2018-04-17 15:44:57 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-17 15:44:57 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-17 15:44:57 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-17 15:44:57 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-17 15:44:57 INFO  rootLogger:228 - get driver object
+2018-04-17 15:44:57 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-17 15:44:57 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:17 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-17 15:45:17 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-17 15:45:17 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:17 INFO  rootLogger:228 - Exception: null
+2018-04-17 15:45:17 INFO  rootLogger:228 - Pane xpath: null
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:17 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:17 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:17 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:18 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-17 15:45:18 INFO  rootLogger:228 - Pagename: ServiceProvider
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:18 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: Page; Method: clickMiscElement
+2018-04-17 15:45:18 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-17 15:45:18 INFO  rootLogger:228 - ImageName: Facility
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:18 INFO  rootLogger:228 - Return: //p[text()='Facility']
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:18 INFO  rootLogger:228 - Return: //p[text()='Facility']
+2018-04-17 15:45:18 INFO  rootLogger:228 - xpath present
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:18 INFO  rootLogger:228 - frame: //p[text()='Facility'];xpath
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:18 INFO  rootLogger:228 - propField: //p[text()='Facility'];xpath
+2018-04-17 15:45:18 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:18 INFO  rootLogger:228 - switchValue: //p[text()='Facility']
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:18 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:19 INFO  rootLogger:228 - Element: 'Facility' exist and clicked. Returning true.
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:19 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:45:19 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:19 INFO  rootLogger:228 - Button to be clicked: AddFacility
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:19 INFO  rootLogger:228 - Return: //button[@id='button_add' and @ng-reflect-router-link='/service-provider/add-facility']
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:19 INFO  rootLogger:228 - Return: //button[@id='button_add' and @ng-reflect-router-link='/service-provider/add-facility']
+2018-04-17 15:45:19 INFO  rootLogger:228 - xpath present
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:19 INFO  rootLogger:228 - frame: //button[@id='button_add' and @ng-reflect-router-link='/service-provider/add-facility'];xpath
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:19 INFO  rootLogger:228 - propField: //button[@id='button_add' and @ng-reflect-router-link='/service-provider/add-facility'];xpath
+2018-04-17 15:45:19 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:19 INFO  rootLogger:228 - switchValue: //button[@id='button_add' and @ng-reflect-router-link='/service-provider/add-facility']
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:19 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:19 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:21 INFO  rootLogger:228 - Button 'AddFacility' object not null and is clicked. Returning true.
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:21 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:21 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:21 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-17 15:45:21 INFO  rootLogger:228 - Dropdown Name: SelectFacilityType
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:21 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:21 INFO  rootLogger:228 - Return: select_facilityType
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:21 INFO  rootLogger:228 - Return: select_facilityType
+2018-04-17 15:45:21 INFO  rootLogger:228 - id present
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:21 INFO  rootLogger:228 - frame: select_facilityType;id
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:21 INFO  rootLogger:228 - propField: select_facilityType;id
+2018-04-17 15:45:21 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:45:21 INFO  rootLogger:228 - switchValue: select_facilityType
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:21 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:21 INFO  rootLogger:228 - Drop down element not null
+2018-04-17 15:45:22 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:22 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Complete
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:23 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:45:23 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:23 INFO  rootLogger:228 - Button to be clicked: AddLocation
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:23 INFO  rootLogger:228 - Return: //div[@class='addLocationIcon' and descendant::*[text()='Name']]
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:23 INFO  rootLogger:228 - Return: //div[@class='addLocationIcon' and descendant::*[text()='Name']]
+2018-04-17 15:45:23 INFO  rootLogger:228 - xpath present
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:23 INFO  rootLogger:228 - frame: //div[@class='addLocationIcon' and descendant::*[text()='Name']];xpath
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:23 INFO  rootLogger:228 - propField: //div[@class='addLocationIcon' and descendant::*[text()='Name']];xpath
+2018-04-17 15:45:23 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:23 INFO  rootLogger:228 - switchValue: //div[@class='addLocationIcon' and descendant::*[text()='Name']]
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:23 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:25 INFO  rootLogger:228 - Button 'AddLocation' object not null and is clicked. Returning true.
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:25 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:25 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:25 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-17 15:45:25 INFO  rootLogger:228 - Dropdown Name: SelectCity
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:25 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:25 INFO  rootLogger:228 - Return: select_city
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:25 INFO  rootLogger:228 - Return: select_city
+2018-04-17 15:45:25 INFO  rootLogger:228 - id present
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:25 INFO  rootLogger:228 - frame: select_city;id
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:25 INFO  rootLogger:228 - propField: select_city;id
+2018-04-17 15:45:25 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:45:25 INFO  rootLogger:228 - switchValue: select_city
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:25 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:25 INFO  rootLogger:228 - Drop down element not null
+2018-04-17 15:45:26 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:26 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Complete
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:27 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:27 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:27 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-17 15:45:27 INFO  rootLogger:228 - Dropdown Name: Locality
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:27 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:27 INFO  rootLogger:228 - Return: select_locality
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:27 INFO  rootLogger:228 - Return: select_locality
+2018-04-17 15:45:27 INFO  rootLogger:228 - id present
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:27 INFO  rootLogger:228 - frame: select_locality;id
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:27 INFO  rootLogger:228 - propField: select_locality;id
+2018-04-17 15:45:27 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:45:27 INFO  rootLogger:228 - switchValue: select_locality
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:27 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:27 INFO  rootLogger:228 - Drop down element not null
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:27 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Complete
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:28 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:28 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:28 INFO  rootLogger:228 - Text box field name: PleaseEnterName
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:28 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:28 INFO  rootLogger:228 - Return: input_name
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:28 INFO  rootLogger:228 - Return: input_name
+2018-04-17 15:45:28 INFO  rootLogger:228 - id present
+2018-04-17 15:45:28 INFO  rootLogger:228 - Text box textPath: input_name
+2018-04-17 15:45:28 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:28 INFO  rootLogger:228 - Text box name: input_name
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:28 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_name' or @id='input_name' or @testid='input_name')];xpath
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:28 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_name' or @id='input_name' or @testid='input_name')];xpath
+2018-04-17 15:45:28 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:28 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_name' or @id='input_name' or @testid='input_name')]
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:28 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:30 INFO  rootLogger:228 - Text box 'PleaseEnterName' object not null. Entered Value: 'bilekahalli'. Returning true.
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:30 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:30 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:30 INFO  rootLogger:228 - Text box field name: PleaseEnteraddress
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:30 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:30 INFO  rootLogger:228 - Return: input_address
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:30 INFO  rootLogger:228 - Return: input_address
+2018-04-17 15:45:30 INFO  rootLogger:228 - id present
+2018-04-17 15:45:30 INFO  rootLogger:228 - Text box textPath: input_address
+2018-04-17 15:45:30 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:30 INFO  rootLogger:228 - Text box name: input_address
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:30 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_address' or @id='input_address' or @testid='input_address')];xpath
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:30 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_address' or @id='input_address' or @testid='input_address')];xpath
+2018-04-17 15:45:30 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:30 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_address' or @id='input_address' or @testid='input_address')]
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:30 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:30 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:31 INFO  rootLogger:228 - Text box 'PleaseEnteraddress' object not null. Entered Value: 'dsr galleria'. Returning true.
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:31 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:31 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:31 INFO  rootLogger:228 - Text box field name: PleaseEnterlandmark
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:31 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:31 INFO  rootLogger:228 - Return: input_landmark
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:31 INFO  rootLogger:228 - Return: input_landmark
+2018-04-17 15:45:31 INFO  rootLogger:228 - id present
+2018-04-17 15:45:31 INFO  rootLogger:228 - Text box textPath: input_landmark
+2018-04-17 15:45:31 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:31 INFO  rootLogger:228 - Text box name: input_landmark
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:31 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_landmark' or @id='input_landmark' or @testid='input_landmark')];xpath
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:31 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_landmark' or @id='input_landmark' or @testid='input_landmark')];xpath
+2018-04-17 15:45:31 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:31 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_landmark' or @id='input_landmark' or @testid='input_landmark')]
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:31 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:33 INFO  rootLogger:228 - Text box 'PleaseEnterlandmark' object not null. Entered Value: 'signal'. Returning true.
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:33 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:33 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:33 INFO  rootLogger:228 - Text box field name: PleaseEnternearBy
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:33 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:33 INFO  rootLogger:228 - Return: input_nearBy1
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:33 INFO  rootLogger:228 - Return: input_nearBy1
+2018-04-17 15:45:33 INFO  rootLogger:228 - id present
+2018-04-17 15:45:33 INFO  rootLogger:228 - Text box textPath: input_nearBy1
+2018-04-17 15:45:33 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:33 INFO  rootLogger:228 - Text box name: input_nearBy1
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:33 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_nearBy1' or @id='input_nearBy1' or @testid='input_nearBy1')];xpath
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:33 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_nearBy1' or @id='input_nearBy1' or @testid='input_nearBy1')];xpath
+2018-04-17 15:45:33 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:33 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_nearBy1' or @id='input_nearBy1' or @testid='input_nearBy1')]
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:33 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:34 INFO  rootLogger:228 - Text box 'PleaseEnternearBy' object not null. Entered Value: 'incubex'. Returning true.
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:34 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:34 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:34 INFO  rootLogger:228 - Text box field name: TermsAndConditions
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:34 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:34 INFO  rootLogger:228 - Return: textArea_termsAndConditions
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:34 INFO  rootLogger:228 - Return: textArea_termsAndConditions
+2018-04-17 15:45:34 INFO  rootLogger:228 - id present
+2018-04-17 15:45:34 INFO  rootLogger:228 - Text box textPath: textArea_termsAndConditions
+2018-04-17 15:45:34 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:34 INFO  rootLogger:228 - Text box name: textArea_termsAndConditions
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:34 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='textArea_termsAndConditions' or @id='textArea_termsAndConditions' or @testid='textArea_termsAndConditions')];xpath
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:34 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='textArea_termsAndConditions' or @id='textArea_termsAndConditions' or @testid='textArea_termsAndConditions')];xpath
+2018-04-17 15:45:34 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:34 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='textArea_termsAndConditions' or @id='textArea_termsAndConditions' or @testid='textArea_termsAndConditions')]
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:34 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:36 INFO  rootLogger:228 - Text box 'TermsAndConditions' object not null. Entered Value: 'These terms and conditions, are subjected to change from time to time, shall apply to all our services'. Returning true.
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:36 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:45:36 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:36 INFO  rootLogger:228 - Button to be clicked: Add
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:36 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:36 INFO  rootLogger:228 - Return: button_add
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:36 INFO  rootLogger:228 - Return: button_add
+2018-04-17 15:45:36 INFO  rootLogger:228 - id present
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:36 INFO  rootLogger:228 - frame: button_add;id
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:36 INFO  rootLogger:228 - propField: button_add;id
+2018-04-17 15:45:36 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:45:36 INFO  rootLogger:228 - switchValue: button_add
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:36 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:38 INFO  rootLogger:228 - Button 'Add' object not null and is clicked. Returning true.
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:38 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:45:38 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:38 INFO  rootLogger:228 - Button to be clicked: OK
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:38 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons' and text()='OK' and parent::div[@class='popup-footer']]
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:38 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons' and text()='OK' and parent::div[@class='popup-footer']]
+2018-04-17 15:45:38 INFO  rootLogger:228 - xpath present
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:38 INFO  rootLogger:228 - frame: //button[@class='consumerModuleButtons' and text()='OK' and parent::div[@class='popup-footer']];xpath
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:38 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons' and text()='OK' and parent::div[@class='popup-footer']];xpath
+2018-04-17 15:45:38 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:38 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons' and text()='OK' and parent::div[@class='popup-footer']]
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:38 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:38 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:38 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:38 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:39 INFO  rootLogger:228 - Button 'OK' object not null and is clicked. Returning true.
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:39 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:39 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:39 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-17 15:45:39 INFO  rootLogger:228 - Dropdown Name: Building/Location
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:39 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:39 INFO  rootLogger:228 - Return: select_location
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:39 INFO  rootLogger:228 - Return: select_location
+2018-04-17 15:45:39 INFO  rootLogger:228 - id present
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:39 INFO  rootLogger:228 - frame: select_location;id
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:39 INFO  rootLogger:228 - propField: select_location;id
+2018-04-17 15:45:39 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:45:39 INFO  rootLogger:228 - switchValue: select_location
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:39 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:39 INFO  rootLogger:228 - Drop down element not null
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:45:39 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Complete
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:40 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:40 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:40 INFO  rootLogger:228 - Text box field name: FacilityMeetingRoomName
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:40 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:40 INFO  rootLogger:228 - Return: input_meetingRoom
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:40 INFO  rootLogger:228 - Return: input_meetingRoom
+2018-04-17 15:45:40 INFO  rootLogger:228 - id present
+2018-04-17 15:45:40 INFO  rootLogger:228 - Text box textPath: input_meetingRoom
+2018-04-17 15:45:40 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:40 INFO  rootLogger:228 - Text box name: input_meetingRoom
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:40 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_meetingRoom' or @id='input_meetingRoom' or @testid='input_meetingRoom')];xpath
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:40 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_meetingRoom' or @id='input_meetingRoom' or @testid='input_meetingRoom')];xpath
+2018-04-17 15:45:40 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:40 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_meetingRoom' or @id='input_meetingRoom' or @testid='input_meetingRoom')]
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:40 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:40 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:42 INFO  rootLogger:228 - Text box 'FacilityMeetingRoomName' object not null. Entered Value: 'conference 999'. Returning true.
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:42 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:42 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:42 INFO  rootLogger:228 - Text box field name: FacilityNoOfSeats
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:42 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:42 INFO  rootLogger:228 - Return: input_noOfSeats
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:42 INFO  rootLogger:228 - Return: input_noOfSeats
+2018-04-17 15:45:42 INFO  rootLogger:228 - id present
+2018-04-17 15:45:42 INFO  rootLogger:228 - Text box textPath: input_noOfSeats
+2018-04-17 15:45:42 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:42 INFO  rootLogger:228 - Text box name: input_noOfSeats
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:42 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfSeats' or @id='input_noOfSeats' or @testid='input_noOfSeats')];xpath
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:42 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfSeats' or @id='input_noOfSeats' or @testid='input_noOfSeats')];xpath
+2018-04-17 15:45:42 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:42 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfSeats' or @id='input_noOfSeats' or @testid='input_noOfSeats')]
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:42 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:43 INFO  rootLogger:228 - Text box 'FacilityNoOfSeats' object not null. Entered Value: '100'. Returning true.
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:43 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:43 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:43 INFO  rootLogger:228 - Text box field name: FacilityAreaSizeSq
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:43 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:43 INFO  rootLogger:228 - Return: input_areaSize
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:43 INFO  rootLogger:228 - Return: input_areaSize
+2018-04-17 15:45:43 INFO  rootLogger:228 - id present
+2018-04-17 15:45:43 INFO  rootLogger:228 - Text box textPath: input_areaSize
+2018-04-17 15:45:43 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:43 INFO  rootLogger:228 - Text box name: input_areaSize
+2018-04-17 15:45:43 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:43 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_areaSize' or @id='input_areaSize' or @testid='input_areaSize')];xpath
+2018-04-17 15:45:44 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:44 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_areaSize' or @id='input_areaSize' or @testid='input_areaSize')];xpath
+2018-04-17 15:45:44 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:44 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_areaSize' or @id='input_areaSize' or @testid='input_areaSize')]
+2018-04-17 15:45:44 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:44 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:44 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:45 INFO  rootLogger:228 - Text box 'FacilityAreaSizeSq' object not null. Entered Value: '1000'. Returning true.
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:45:45 INFO  rootLogger:228 - get driver object
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:45:45 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:45:45 INFO  rootLogger:228 - Text box field name: FacilityDescription
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:45 INFO  rootLogger:228 - Return: null
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:45 INFO  rootLogger:228 - Return: textarea_description
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:45:45 INFO  rootLogger:228 - Return: textarea_description
+2018-04-17 15:45:45 INFO  rootLogger:228 - id present
+2018-04-17 15:45:45 INFO  rootLogger:228 - Text box textPath: textarea_description
+2018-04-17 15:45:45 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:45:45 INFO  rootLogger:228 - Text box name: textarea_description
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:45 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='textarea_description' or @id='textarea_description' or @testid='textarea_description')];xpath
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:45:45 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='textarea_description' or @id='textarea_description' or @testid='textarea_description')];xpath
+2018-04-17 15:45:45 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:45:45 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='textarea_description' or @id='textarea_description' or @testid='textarea_description')]
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:45:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:45:45 INFO  rootLogger:228 - frame: 
+2018-04-17 15:45:46 INFO  rootLogger:228 - Text box 'FacilityDescription' object not null. Entered Value: 'adding conference room'. Returning true.
+2018-04-17 15:45:46 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:45:46 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-17 15:46:16 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-17 15:46:16 INFO  rootLogger:228 - Class: ServiceProviderStepdefs; Method: checkMulitipleCheckBoxEntries : Start
+2018-04-17 15:46:16 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:16 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:16 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:16 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:16 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:18 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:18 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:18 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:19 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:19 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:19 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:19 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:19 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:20 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:20 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:20 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:20 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:20 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:20 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:20 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:20 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:20 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:20 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:21 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:21 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:21 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:22 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:22 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:22 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:23 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:23 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:23 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:23 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:25 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:25 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:25 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:25 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:25 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:25 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: ServiceProviderStepdefs; Method: checkMulitipleCheckBoxEntries : Complete
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:26 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:46:26 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:46:26 INFO  rootLogger:228 - Button to be clicked: Next
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:26 INFO  rootLogger:228 - Return: null
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:26 INFO  rootLogger:228 - Return: button_next
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:26 INFO  rootLogger:228 - Return: button_next
+2018-04-17 15:46:26 INFO  rootLogger:228 - id present
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:26 INFO  rootLogger:228 - frame: button_next;id
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:46:26 INFO  rootLogger:228 - propField: button_next;id
+2018-04-17 15:46:26 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:46:26 INFO  rootLogger:228 - switchValue: button_next
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:26 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:26 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:28 INFO  rootLogger:228 - Button 'Next' object not null and is clicked. Returning true.
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:28 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:46:28 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:46:28 INFO  rootLogger:228 - Text box field name: CostPerHour
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:28 INFO  rootLogger:228 - Return: null
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:28 INFO  rootLogger:228 - Return: input_costPerHour
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:28 INFO  rootLogger:228 - Return: input_costPerHour
+2018-04-17 15:46:28 INFO  rootLogger:228 - id present
+2018-04-17 15:46:28 INFO  rootLogger:228 - Text box textPath: input_costPerHour
+2018-04-17 15:46:28 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:46:28 INFO  rootLogger:228 - Text box name: input_costPerHour
+2018-04-17 15:46:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:28 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerHour' or @id='input_costPerHour' or @testid='input_costPerHour')];xpath
+2018-04-17 15:46:43 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerHour' or @id='input_costPerHour' or @testid='input_costPerHour')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:46:43 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:46:43 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerHour' or @id='input_costPerHour' or @testid='input_costPerHour')];xpath
+2018-04-17 15:46:43 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:46:43 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerHour' or @id='input_costPerHour' or @testid='input_costPerHour')]
+2018-04-17 15:46:43 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:43 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:43 INFO  rootLogger:228 - frame: 
+2018-04-17 15:46:44 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerHour' or @id='input_costPerHour' or @testid='input_costPerHour')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:44 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:44 INFO  rootLogger:228 - Text box 'CostPerHour' object not null. Entered Value: '10'. Returning true.
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:46:44 INFO  rootLogger:228 - get driver object
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:46:44 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:46:44 INFO  rootLogger:228 - Text box field name: CostPerDay
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:44 INFO  rootLogger:228 - Return: null
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:44 INFO  rootLogger:228 - Return: input_costPerDay
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:46:44 INFO  rootLogger:228 - Return: input_costPerDay
+2018-04-17 15:46:44 INFO  rootLogger:228 - id present
+2018-04-17 15:46:44 INFO  rootLogger:228 - Text box textPath: input_costPerDay
+2018-04-17 15:46:44 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:46:44 INFO  rootLogger:228 - Text box name: input_costPerDay
+2018-04-17 15:46:44 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:44 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerDay' or @id='input_costPerDay' or @testid='input_costPerDay')];xpath
+2018-04-17 15:46:59 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerDay' or @id='input_costPerDay' or @testid='input_costPerDay')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:46:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:46:59 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerDay' or @id='input_costPerDay' or @testid='input_costPerDay')];xpath
+2018-04-17 15:46:59 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:46:59 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerDay' or @id='input_costPerDay' or @testid='input_costPerDay')]
+2018-04-17 15:46:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:46:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:46:59 INFO  rootLogger:228 - frame: 
+2018-04-17 15:47:01 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerDay' or @id='input_costPerDay' or @testid='input_costPerDay')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:01 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:01 INFO  rootLogger:228 - Text box 'CostPerDay' object not null. Entered Value: '100'. Returning true.
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:01 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:47:01 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:47:01 INFO  rootLogger:228 - Text box field name: CostPerMonth
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:01 INFO  rootLogger:228 - Return: null
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:01 INFO  rootLogger:228 - Return: input_costPerMonth
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:01 INFO  rootLogger:228 - Return: input_costPerMonth
+2018-04-17 15:47:01 INFO  rootLogger:228 - id present
+2018-04-17 15:47:01 INFO  rootLogger:228 - Text box textPath: input_costPerMonth
+2018-04-17 15:47:01 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:47:01 INFO  rootLogger:228 - Text box name: input_costPerMonth
+2018-04-17 15:47:01 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:01 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerMonth' or @id='input_costPerMonth' or @testid='input_costPerMonth')];xpath
+2018-04-17 15:47:16 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerMonth' or @id='input_costPerMonth' or @testid='input_costPerMonth')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:16 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:47:16 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerMonth' or @id='input_costPerMonth' or @testid='input_costPerMonth')];xpath
+2018-04-17 15:47:16 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:47:16 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerMonth' or @id='input_costPerMonth' or @testid='input_costPerMonth')]
+2018-04-17 15:47:16 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:47:16 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:16 INFO  rootLogger:228 - frame: 
+2018-04-17 15:47:17 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_costPerMonth' or @id='input_costPerMonth' or @testid='input_costPerMonth')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:17 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:17 INFO  rootLogger:228 - Text box 'CostPerMonth' object not null. Entered Value: '1000'. Returning true.
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:17 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:47:17 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:47:17 INFO  rootLogger:228 - Button to be clicked: OfferAdd
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:17 INFO  rootLogger:228 - Return: //i[@class='fa labelIcon requiredFields fa-plus']
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:17 INFO  rootLogger:228 - Return: //i[@class='fa labelIcon requiredFields fa-plus']
+2018-04-17 15:47:17 INFO  rootLogger:228 - xpath present
+2018-04-17 15:47:17 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:17 INFO  rootLogger:228 - frame: //i[@class='fa labelIcon requiredFields fa-plus'];xpath
+2018-04-17 15:47:28 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='fa labelIcon requiredFields fa-plus'] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:47:28 INFO  rootLogger:228 - propField: //i[@class='fa labelIcon requiredFields fa-plus'];xpath
+2018-04-17 15:47:28 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:47:28 INFO  rootLogger:228 - switchValue: //i[@class='fa labelIcon requiredFields fa-plus']
+2018-04-17 15:47:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:47:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:28 INFO  rootLogger:228 - frame: 
+2018-04-17 15:47:29 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='fa labelIcon requiredFields fa-plus'] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:47:29 INFO  rootLogger:228 - propField: //i[@class='fa labelIcon requiredFields fa-plus'];xpath
+2018-04-17 15:47:29 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:47:29 INFO  rootLogger:228 - switchValue: //i[@class='fa labelIcon requiredFields fa-plus']
+2018-04-17 15:47:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElements
+2018-04-17 15:47:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:29 INFO  rootLogger:228 - frame: 
+2018-04-17 15:47:31 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='fa labelIcon requiredFields fa-plus'] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:31 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:31 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:32 INFO  rootLogger:228 - Button 'OfferAdd' object not null and is clicked. Returning true.
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:32 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:47:32 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:47:32 INFO  rootLogger:228 - Text box field name: From
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:32 INFO  rootLogger:228 - Return: null
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:32 INFO  rootLogger:228 - Return: datePicker
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:32 INFO  rootLogger:228 - Return: datePicker
+2018-04-17 15:47:32 INFO  rootLogger:228 - id present
+2018-04-17 15:47:32 INFO  rootLogger:228 - Text box textPath: datePicker
+2018-04-17 15:47:32 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:47:32 INFO  rootLogger:228 - Text box name: datePicker
+2018-04-17 15:47:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:32 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker' or @id='datePicker' or @testid='datePicker')];xpath
+2018-04-17 15:47:47 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker' or @id='datePicker' or @testid='datePicker')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:47:47 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker' or @id='datePicker' or @testid='datePicker')];xpath
+2018-04-17 15:47:47 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:47:47 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker' or @id='datePicker' or @testid='datePicker')]
+2018-04-17 15:47:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:47:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:47 INFO  rootLogger:228 - frame: 
+2018-04-17 15:47:48 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker' or @id='datePicker' or @testid='datePicker')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:48 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:48 INFO  rootLogger:228 - Text box 'From' object not null. Entered Value: '2018-03-2'. Returning true.
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:47:48 INFO  rootLogger:228 - get driver object
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:47:48 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:47:48 INFO  rootLogger:228 - Text box field name: To
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:48 INFO  rootLogger:228 - Return: null
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:48 INFO  rootLogger:228 - Return: datePicker2
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:47:48 INFO  rootLogger:228 - Return: datePicker2
+2018-04-17 15:47:48 INFO  rootLogger:228 - id present
+2018-04-17 15:47:48 INFO  rootLogger:228 - Text box textPath: datePicker2
+2018-04-17 15:47:48 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:47:48 INFO  rootLogger:228 - Text box name: datePicker2
+2018-04-17 15:47:48 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:47:48 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker2' or @id='datePicker2' or @testid='datePicker2')];xpath
+2018-04-17 15:48:04 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker2' or @id='datePicker2' or @testid='datePicker2')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:04 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:48:04 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker2' or @id='datePicker2' or @testid='datePicker2')];xpath
+2018-04-17 15:48:04 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:48:04 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker2' or @id='datePicker2' or @testid='datePicker2')]
+2018-04-17 15:48:04 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:48:04 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:04 INFO  rootLogger:228 - frame: 
+2018-04-17 15:48:05 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='datePicker2' or @id='datePicker2' or @testid='datePicker2')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:05 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:05 INFO  rootLogger:228 - Text box 'To' object not null. Entered Value: '2018-03-2'. Returning true.
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:05 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:48:05 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:48:05 INFO  rootLogger:228 - Text box field name: %OfOffer
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:05 INFO  rootLogger:228 - Return: null
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:05 INFO  rootLogger:228 - Return: input_%OfOffer
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:05 INFO  rootLogger:228 - Return: input_%OfOffer
+2018-04-17 15:48:05 INFO  rootLogger:228 - id present
+2018-04-17 15:48:05 INFO  rootLogger:228 - Text box textPath: input_%OfOffer
+2018-04-17 15:48:05 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:48:05 INFO  rootLogger:228 - Text box name: input_%OfOffer
+2018-04-17 15:48:05 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:05 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_%OfOffer' or @id='input_%OfOffer' or @testid='input_%OfOffer')];xpath
+2018-04-17 15:48:21 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_%OfOffer' or @id='input_%OfOffer' or @testid='input_%OfOffer')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:48:21 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_%OfOffer' or @id='input_%OfOffer' or @testid='input_%OfOffer')];xpath
+2018-04-17 15:48:21 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:48:21 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_%OfOffer' or @id='input_%OfOffer' or @testid='input_%OfOffer')]
+2018-04-17 15:48:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:48:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:21 INFO  rootLogger:228 - frame: 
+2018-04-17 15:48:22 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_%OfOffer' or @id='input_%OfOffer' or @testid='input_%OfOffer')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:22 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:22 INFO  rootLogger:228 - Text box '%OfOffer' object not null. Entered Value: '10'. Returning true.
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:22 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:48:22 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:48:22 INFO  rootLogger:228 - Button to be clicked: CancelAdd
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:22 INFO  rootLogger:228 - Return: //i[@class='fa labelIcon fa-plus']
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:22 INFO  rootLogger:228 - Return: //i[@class='fa labelIcon fa-plus']
+2018-04-17 15:48:22 INFO  rootLogger:228 - xpath present
+2018-04-17 15:48:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:22 INFO  rootLogger:228 - frame: //i[@class='fa labelIcon fa-plus'];xpath
+2018-04-17 15:48:32 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='fa labelIcon fa-plus'] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:48:32 INFO  rootLogger:228 - propField: //i[@class='fa labelIcon fa-plus'];xpath
+2018-04-17 15:48:32 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:48:32 INFO  rootLogger:228 - switchValue: //i[@class='fa labelIcon fa-plus']
+2018-04-17 15:48:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:48:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:32 INFO  rootLogger:228 - frame: 
+2018-04-17 15:48:33 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='fa labelIcon fa-plus'] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:48:33 INFO  rootLogger:228 - propField: //i[@class='fa labelIcon fa-plus'];xpath
+2018-04-17 15:48:33 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:48:33 INFO  rootLogger:228 - switchValue: //i[@class='fa labelIcon fa-plus']
+2018-04-17 15:48:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElements
+2018-04-17 15:48:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:33 INFO  rootLogger:228 - frame: 
+2018-04-17 15:48:34 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='fa labelIcon fa-plus'] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:35 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:35 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:35 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:35 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:36 INFO  rootLogger:228 - Button 'CancelAdd' object not null and is clicked. Returning true.
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:36 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:48:36 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:48:36 INFO  rootLogger:228 - Text box field name: NoOfDaysBefore
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:36 INFO  rootLogger:228 - Return: null
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:36 INFO  rootLogger:228 - Return: input_numberOfDays
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:36 INFO  rootLogger:228 - Return: input_numberOfDays
+2018-04-17 15:48:36 INFO  rootLogger:228 - id present
+2018-04-17 15:48:36 INFO  rootLogger:228 - Text box textPath: input_numberOfDays
+2018-04-17 15:48:36 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:48:36 INFO  rootLogger:228 - Text box name: input_numberOfDays
+2018-04-17 15:48:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:36 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_numberOfDays' or @id='input_numberOfDays' or @testid='input_numberOfDays')];xpath
+2018-04-17 15:48:51 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_numberOfDays' or @id='input_numberOfDays' or @testid='input_numberOfDays')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:51 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:48:51 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_numberOfDays' or @id='input_numberOfDays' or @testid='input_numberOfDays')];xpath
+2018-04-17 15:48:51 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:48:51 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_numberOfDays' or @id='input_numberOfDays' or @testid='input_numberOfDays')]
+2018-04-17 15:48:51 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:48:51 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:51 INFO  rootLogger:228 - frame: 
+2018-04-17 15:48:52 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_numberOfDays' or @id='input_numberOfDays' or @testid='input_numberOfDays')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:52 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:52 INFO  rootLogger:228 - Text box 'NoOfDaysBefore' object not null. Entered Value: '1'. Returning true.
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:48:52 INFO  rootLogger:228 - get driver object
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:48:52 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:48:52 INFO  rootLogger:228 - Text box field name: %OfDeduction
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:52 INFO  rootLogger:228 - Return: null
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:52 INFO  rootLogger:228 - Return: input_cancellationCharges
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:48:52 INFO  rootLogger:228 - Return: input_cancellationCharges
+2018-04-17 15:48:52 INFO  rootLogger:228 - id present
+2018-04-17 15:48:52 INFO  rootLogger:228 - Text box textPath: input_cancellationCharges
+2018-04-17 15:48:52 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:48:52 INFO  rootLogger:228 - Text box name: input_cancellationCharges
+2018-04-17 15:48:52 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:48:52 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges' or @id='input_cancellationCharges' or @testid='input_cancellationCharges')];xpath
+2018-04-17 15:49:07 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges' or @id='input_cancellationCharges' or @testid='input_cancellationCharges')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:07 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:49:07 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges' or @id='input_cancellationCharges' or @testid='input_cancellationCharges')];xpath
+2018-04-17 15:49:07 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:49:07 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges' or @id='input_cancellationCharges' or @testid='input_cancellationCharges')]
+2018-04-17 15:49:07 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:49:07 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:07 INFO  rootLogger:228 - frame: 
+2018-04-17 15:49:09 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges' or @id='input_cancellationCharges' or @testid='input_cancellationCharges')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:09 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:09 INFO  rootLogger:228 - Text box '%OfDeduction' object not null. Entered Value: '10'. Returning true.
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:09 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:49:09 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:49:09 INFO  rootLogger:228 - Text box field name: NoOfDaysBefore2
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:09 INFO  rootLogger:228 - Return: null
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:09 INFO  rootLogger:228 - Return: input_noOfDaysBefore2
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:09 INFO  rootLogger:228 - Return: input_noOfDaysBefore2
+2018-04-17 15:49:09 INFO  rootLogger:228 - id present
+2018-04-17 15:49:09 INFO  rootLogger:228 - Text box textPath: input_noOfDaysBefore2
+2018-04-17 15:49:09 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:49:09 INFO  rootLogger:228 - Text box name: input_noOfDaysBefore2
+2018-04-17 15:49:09 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:09 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore2' or @id='input_noOfDaysBefore2' or @testid='input_noOfDaysBefore2')];xpath
+2018-04-17 15:49:24 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore2' or @id='input_noOfDaysBefore2' or @testid='input_noOfDaysBefore2')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:24 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:49:24 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore2' or @id='input_noOfDaysBefore2' or @testid='input_noOfDaysBefore2')];xpath
+2018-04-17 15:49:24 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:49:24 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore2' or @id='input_noOfDaysBefore2' or @testid='input_noOfDaysBefore2')]
+2018-04-17 15:49:24 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:49:24 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:24 INFO  rootLogger:228 - frame: 
+2018-04-17 15:49:25 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore2' or @id='input_noOfDaysBefore2' or @testid='input_noOfDaysBefore2')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:25 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:25 INFO  rootLogger:228 - Text box 'NoOfDaysBefore2' object not null. Entered Value: '2'. Returning true.
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:25 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:49:25 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:49:25 INFO  rootLogger:228 - Text box field name: %OfDeduction2
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:25 INFO  rootLogger:228 - Return: null
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:25 INFO  rootLogger:228 - Return: input_cancelationCharge2
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:25 INFO  rootLogger:228 - Return: input_cancelationCharge2
+2018-04-17 15:49:25 INFO  rootLogger:228 - id present
+2018-04-17 15:49:25 INFO  rootLogger:228 - Text box textPath: input_cancelationCharge2
+2018-04-17 15:49:25 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:49:25 INFO  rootLogger:228 - Text box name: input_cancelationCharge2
+2018-04-17 15:49:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:25 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancelationCharge2' or @id='input_cancelationCharge2' or @testid='input_cancelationCharge2')];xpath
+2018-04-17 15:49:41 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancelationCharge2' or @id='input_cancelationCharge2' or @testid='input_cancelationCharge2')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:41 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:49:41 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancelationCharge2' or @id='input_cancelationCharge2' or @testid='input_cancelationCharge2')];xpath
+2018-04-17 15:49:41 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:49:41 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancelationCharge2' or @id='input_cancelationCharge2' or @testid='input_cancelationCharge2')]
+2018-04-17 15:49:41 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:49:41 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:41 INFO  rootLogger:228 - frame: 
+2018-04-17 15:49:42 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancelationCharge2' or @id='input_cancelationCharge2' or @testid='input_cancelationCharge2')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:42 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:42 INFO  rootLogger:228 - Text box '%OfDeduction2' object not null. Entered Value: '20'. Returning true.
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:42 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:49:42 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:49:42 INFO  rootLogger:228 - Text box field name: NoOfDaysBefore3
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:42 INFO  rootLogger:228 - Return: null
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:42 INFO  rootLogger:228 - Return: input_noOfDaysBefore3
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:42 INFO  rootLogger:228 - Return: input_noOfDaysBefore3
+2018-04-17 15:49:42 INFO  rootLogger:228 - id present
+2018-04-17 15:49:42 INFO  rootLogger:228 - Text box textPath: input_noOfDaysBefore3
+2018-04-17 15:49:42 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:49:42 INFO  rootLogger:228 - Text box name: input_noOfDaysBefore3
+2018-04-17 15:49:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:42 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore3' or @id='input_noOfDaysBefore3' or @testid='input_noOfDaysBefore3')];xpath
+2018-04-17 15:49:57 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore3' or @id='input_noOfDaysBefore3' or @testid='input_noOfDaysBefore3')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:57 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:49:57 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore3' or @id='input_noOfDaysBefore3' or @testid='input_noOfDaysBefore3')];xpath
+2018-04-17 15:49:57 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:49:57 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore3' or @id='input_noOfDaysBefore3' or @testid='input_noOfDaysBefore3')]
+2018-04-17 15:49:57 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:49:57 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:57 INFO  rootLogger:228 - frame: 
+2018-04-17 15:49:59 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_noOfDaysBefore3' or @id='input_noOfDaysBefore3' or @testid='input_noOfDaysBefore3')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:59 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:59 INFO  rootLogger:228 - Text box 'NoOfDaysBefore3' object not null. Entered Value: '3'. Returning true.
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:49:59 INFO  rootLogger:228 - get driver object
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:49:59 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:49:59 INFO  rootLogger:228 - Text box field name: %OfDeduction3
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:59 INFO  rootLogger:228 - Return: null
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:59 INFO  rootLogger:228 - Return: input_cancellationCharges3
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:49:59 INFO  rootLogger:228 - Return: input_cancellationCharges3
+2018-04-17 15:49:59 INFO  rootLogger:228 - id present
+2018-04-17 15:49:59 INFO  rootLogger:228 - Text box textPath: input_cancellationCharges3
+2018-04-17 15:49:59 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:49:59 INFO  rootLogger:228 - Text box name: input_cancellationCharges3
+2018-04-17 15:49:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:49:59 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges3' or @id='input_cancellationCharges3' or @testid='input_cancellationCharges3')];xpath
+2018-04-17 15:50:14 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges3' or @id='input_cancellationCharges3' or @testid='input_cancellationCharges3')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:50:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:14 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges3' or @id='input_cancellationCharges3' or @testid='input_cancellationCharges3')];xpath
+2018-04-17 15:50:14 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:50:14 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges3' or @id='input_cancellationCharges3' or @testid='input_cancellationCharges3')]
+2018-04-17 15:50:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:50:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:14 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:15 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='input_cancellationCharges3' or @id='input_cancellationCharges3' or @testid='input_cancellationCharges3')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:15 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:15 INFO  rootLogger:228 - Text box '%OfDeduction3' object not null. Entered Value: '30'. Returning true.
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:15 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:50:15 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:50:15 INFO  rootLogger:228 - Text box field name: SpContactNumber
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:15 INFO  rootLogger:228 - Return: null
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:15 INFO  rootLogger:228 - Return: input_contactNumber
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:15 INFO  rootLogger:228 - Return: input_contactNumber
+2018-04-17 15:50:15 INFO  rootLogger:228 - id present
+2018-04-17 15:50:15 INFO  rootLogger:228 - Text box textPath: input_contactNumber
+2018-04-17 15:50:15 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:50:15 INFO  rootLogger:228 - Text box name: input_contactNumber
+2018-04-17 15:50:15 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:15 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_contactNumber' or @id='input_contactNumber' or @testid='input_contactNumber')];xpath
+2018-04-17 15:50:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:28 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_contactNumber' or @id='input_contactNumber' or @testid='input_contactNumber')];xpath
+2018-04-17 15:50:28 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:50:28 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_contactNumber' or @id='input_contactNumber' or @testid='input_contactNumber')]
+2018-04-17 15:50:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:50:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:28 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:29 INFO  rootLogger:228 - Text box 'SpContactNumber' object not null. Entered Value: '8497995311'. Returning true.
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:29 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-17 15:50:29 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:50:29 INFO  rootLogger:228 - Text box field name: SpEmail
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:29 INFO  rootLogger:228 - Return: null
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:29 INFO  rootLogger:228 - Return: input_email
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:29 INFO  rootLogger:228 - Return: input_email
+2018-04-17 15:50:29 INFO  rootLogger:228 - id present
+2018-04-17 15:50:29 INFO  rootLogger:228 - Text box textPath: input_email
+2018-04-17 15:50:29 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-17 15:50:29 INFO  rootLogger:228 - Text box name: input_email
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:29 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_email' or @id='input_email' or @testid='input_email')];xpath
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:29 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_email' or @id='input_email' or @testid='input_email')];xpath
+2018-04-17 15:50:29 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:50:29 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_email' or @id='input_email' or @testid='input_email')]
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:50:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:29 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:31 INFO  rootLogger:228 - Text box 'SpEmail' object not null. Entered Value: 'aparna.b@myapps-solutions.com'. Returning true.
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:31 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:50:31 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:50:31 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-17 15:50:31 INFO  rootLogger:228 - Dropdown Name: PaymentMode
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:31 INFO  rootLogger:228 - Return: null
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:31 INFO  rootLogger:228 - Return: select_payment
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:31 INFO  rootLogger:228 - Return: select_payment
+2018-04-17 15:50:31 INFO  rootLogger:228 - id present
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:31 INFO  rootLogger:228 - frame: select_payment;id
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:31 INFO  rootLogger:228 - propField: select_payment;id
+2018-04-17 15:50:31 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:50:31 INFO  rootLogger:228 - switchValue: select_payment
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:31 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:31 INFO  rootLogger:228 - Drop down element not null
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: Page; Method: selectDropDownOption
+2018-04-17 15:50:31 INFO  rootLogger:228 - Class: Page; Method: selectDropDownInPane
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: selectFromDropdown : Complete
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkCheckBox : Start
+2018-04-17 15:50:32 INFO  rootLogger:228 - CheckBoxName: Request Huddil Verfication
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:32 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: Page; Method: setCheckBox
+2018-04-17 15:50:32 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:50:32 INFO  rootLogger:228 - Checkbox name: Request Huddil Verfication
+2018-04-17 15:50:32 INFO  rootLogger:228 - CheckType: check
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:32 INFO  rootLogger:228 - Return: //input[@formcontrolname='huddilVerify']
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:32 INFO  rootLogger:228 - Return: //input[@formcontrolname='huddilVerify']
+2018-04-17 15:50:32 INFO  rootLogger:228 - xpath present
+2018-04-17 15:50:32 INFO  rootLogger:228 - CheckBox value: //input[@formcontrolname='huddilVerify']
+2018-04-17 15:50:32 INFO  rootLogger:228 - CheckBox method: xpath
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:32 INFO  rootLogger:228 - propField: //input[@formcontrolname='huddilVerify'];xpath
+2018-04-17 15:50:32 INFO  rootLogger:228 - switchType: xpath
+2018-04-17 15:50:32 INFO  rootLogger:228 - switchValue: //input[@formcontrolname='huddilVerify']
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:50:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:32 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:33 INFO  rootLogger:228 - Trying to check checkbox
+2018-04-17 15:50:33 INFO  rootLogger:228 - Action performed on checkbox: 'check'. Returning true.
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:33 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:50:33 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:50:33 INFO  rootLogger:228 - Button to be clicked: Next2
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:33 INFO  rootLogger:228 - Return: null
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:33 INFO  rootLogger:228 - Return: button_next2
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:33 INFO  rootLogger:228 - Return: button_next2
+2018-04-17 15:50:33 INFO  rootLogger:228 - id present
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:33 INFO  rootLogger:228 - frame: button_next2;id
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:33 INFO  rootLogger:228 - propField: button_next2;id
+2018-04-17 15:50:33 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:50:33 INFO  rootLogger:228 - switchValue: button_next2
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:50:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:33 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:35 INFO  rootLogger:228 - Button 'Next2' object not null and is clicked. Returning true.
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:35 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:50:35 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:50:35 INFO  rootLogger:228 - Button to be clicked: Submit
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:35 INFO  rootLogger:228 - Return: null
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:35 INFO  rootLogger:228 - Return: button_submit
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:50:35 INFO  rootLogger:228 - Return: button_submit
+2018-04-17 15:50:35 INFO  rootLogger:228 - id present
+2018-04-17 15:50:35 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:35 INFO  rootLogger:228 - frame: button_submit;id
+2018-04-17 15:50:45 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: button_submit (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:50:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:45 INFO  rootLogger:228 - propField: button_submit;id
+2018-04-17 15:50:45 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:50:45 INFO  rootLogger:228 - switchValue: button_submit
+2018-04-17 15:50:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:50:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:45 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:46 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: button_submit (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:50:46 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:50:46 INFO  rootLogger:228 - propField: button_submit;id
+2018-04-17 15:50:46 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:50:46 INFO  rootLogger:228 - switchValue: button_submit
+2018-04-17 15:50:46 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElements
+2018-04-17 15:50:46 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:50:46 INFO  rootLogger:228 - frame: 
+2018-04-17 15:50:47 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: button_submit (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+2018-04-17 15:50:47 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:47 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:47 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:50:47 INFO  rootLogger:228 - get driver object
+2018-04-17 15:50:48 INFO  rootLogger:228 - Button 'Submit' object not null and is clicked. Returning true.
+2018-04-17 15:50:48 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-17 15:50:48 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-17 15:51:08 INFO  rootLogger:228 - get driver object
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-17 15:51:08 INFO  rootLogger:228 - Current page name: ServiceProvider
+2018-04-17 15:51:08 INFO  rootLogger:228 - Button to be clicked: SuccessOK
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:51:08 INFO  rootLogger:228 - Return: null
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:51:08 INFO  rootLogger:228 - Return: button_ok_sessionNotExpired
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-17 15:51:08 INFO  rootLogger:228 - Return: button_ok_sessionNotExpired
+2018-04-17 15:51:08 INFO  rootLogger:228 - id present
+2018-04-17 15:51:08 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:51:08 INFO  rootLogger:228 - frame: button_ok_sessionNotExpired;id
+2018-04-17 15:51:18 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: button_ok_sessionNotExpired (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-17 15:51:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-17 15:51:18 INFO  rootLogger:228 - propField: button_ok_sessionNotExpired;id
+2018-04-17 15:51:18 INFO  rootLogger:228 - switchType: id
+2018-04-17 15:51:18 INFO  rootLogger:228 - switchValue: button_ok_sessionNotExpired
+2018-04-17 15:51:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-17 15:51:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-17 15:51:18 INFO  rootLogger:228 - frame: 
+2018-04-17 15:51:19 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: button_ok_sessionNotExpired (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-17 15:51:19 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: #button_ok_sessionNotExpired
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.9gkxS0o7xSuk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10004, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: cd9ae92a-b9e4-4b63-b0f9-6bb2336f08d7
+*** Element info: {Using=id, value=button_ok_sessionNotExpired}
+2018-04-17 15:51:19 INFO  rootLogger:228 - Button 'SuccessOK' object null. Returning false.
+2018-04-17 15:51:19 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-17 15:51:19 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation - Failed
+2018-04-17 15:51:19 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-17 15:51:20 INFO  rootLogger:228 - Browser closed
+2018-04-17 15:51:20 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-17 15:51:20 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation complete.
+2018-04-17 15:51:20 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowser

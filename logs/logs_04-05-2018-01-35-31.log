@@ -1,0 +1,1105 @@
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-05 13:35:31 INFO  rootLogger:228 - Value to read: APP
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-05 13:35:31 INFO  rootLogger:228 - Value to read: SECTION
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-05 13:35:31 INFO  rootLogger:228 - Value to read: TAG_NAME
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-05 13:35:31 INFO  rootLogger:228 - SectionName: huddil
+2018-04-05 13:35:31 INFO  rootLogger:228 - KeyName: url
+2018-04-05 13:35:31 INFO  rootLogger:228 - Value: null
+2018-04-05 13:35:31 INFO  rootLogger:228 - Returning: http://ec2-13-232-9-99.ap-south-1.compute.amazonaws.com/
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-05 13:35:31 INFO  rootLogger:228 - SectionName: huddil
+2018-04-05 13:35:31 INFO  rootLogger:228 - KeyName: username
+2018-04-05 13:35:31 INFO  rootLogger:228 - Value: null
+2018-04-05 13:35:31 INFO  rootLogger:228 - Returning: sukanya.k@myapps-solutions.com
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-05 13:35:31 INFO  rootLogger:228 - SectionName: huddil
+2018-04-05 13:35:31 INFO  rootLogger:228 - KeyName: password
+2018-04-05 13:35:31 INFO  rootLogger:228 - Value: null
+2018-04-05 13:35:31 INFO  rootLogger:228 - Returning: password
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:35:31 INFO  rootLogger:228 - Scenario: Verify Service Provider Sign Up starting.
+2018-04-05 13:35:31 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Start
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-05 13:35:31 INFO  rootLogger:228 - Initializing JSON files
+2018-04-05 13:35:31 INFO  rootLogger:228 - Class: SetUpFile; Method: launchApplication
+2018-04-05 13:35:44 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:35:45 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:35:45 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:35:45 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:35:45 INFO  rootLogger:228 - get driver object
+2018-04-05 13:35:45 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:35:53 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:35:53 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Complete
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:35:53 INFO  rootLogger:228 - get driver object
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-05 13:35:53 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:35:53 INFO  rootLogger:228 - Button to be clicked: PartnerWithUs
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:53 INFO  rootLogger:228 - Return: //a[@class='topMenuRound' and text()='Partner With Us']
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:53 INFO  rootLogger:228 - Return: //a[@class='topMenuRound' and text()='Partner With Us']
+2018-04-05 13:35:53 INFO  rootLogger:228 - xpath present
+2018-04-05 13:35:53 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:53 INFO  rootLogger:228 - frame: //a[@class='topMenuRound' and text()='Partner With Us'];xpath
+2018-04-05 13:35:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:35:54 INFO  rootLogger:228 - propField: //a[@class='topMenuRound' and text()='Partner With Us'];xpath
+2018-04-05 13:35:54 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:35:54 INFO  rootLogger:228 - switchValue: //a[@class='topMenuRound' and text()='Partner With Us']
+2018-04-05 13:35:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:35:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:54 INFO  rootLogger:228 - frame: 
+2018-04-05 13:35:55 INFO  rootLogger:228 - Button 'PartnerWithUs' object not null and is clicked. Returning true.
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:35:55 INFO  rootLogger:228 - get driver object
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-05 13:35:55 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:35:55 INFO  rootLogger:228 - Text box field name: SPOwnerName
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:55 INFO  rootLogger:228 - Return: null
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:55 INFO  rootLogger:228 - Return: name
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:55 INFO  rootLogger:228 - Return: name
+2018-04-05 13:35:55 INFO  rootLogger:228 - id present
+2018-04-05 13:35:55 INFO  rootLogger:228 - Text box textPath: name
+2018-04-05 13:35:55 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-05 13:35:55 INFO  rootLogger:228 - Text box name: name
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:55 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='name' or @id='name' or @testid='name')];xpath
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:35:55 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='name' or @id='name' or @testid='name')];xpath
+2018-04-05 13:35:55 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:35:55 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='name' or @id='name' or @testid='name')]
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:35:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:55 INFO  rootLogger:228 - frame: 
+2018-04-05 13:35:56 INFO  rootLogger:228 - Text box 'SPOwnerName' object not null. Entered Value: 'aparna'. Returning true.
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:35:56 INFO  rootLogger:228 - get driver object
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-05 13:35:56 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:35:56 INFO  rootLogger:228 - Text box field name: SPPassword
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:56 INFO  rootLogger:228 - Return: null
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:56 INFO  rootLogger:228 - Return: password
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:56 INFO  rootLogger:228 - Return: password
+2018-04-05 13:35:56 INFO  rootLogger:228 - id present
+2018-04-05 13:35:56 INFO  rootLogger:228 - Text box textPath: password
+2018-04-05 13:35:56 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-05 13:35:56 INFO  rootLogger:228 - Text box name: password
+2018-04-05 13:35:56 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:56 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='password' or @id='password' or @testid='password')];xpath
+2018-04-05 13:35:57 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:35:57 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='password' or @id='password' or @testid='password')];xpath
+2018-04-05 13:35:57 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:35:57 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='password' or @id='password' or @testid='password')]
+2018-04-05 13:35:57 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:35:57 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:57 INFO  rootLogger:228 - frame: 
+2018-04-05 13:35:58 INFO  rootLogger:228 - Text box 'SPPassword' object not null. Entered Value: 'password'. Returning true.
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:35:58 INFO  rootLogger:228 - get driver object
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-05 13:35:58 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:35:58 INFO  rootLogger:228 - Text box field name: SPConfPassword
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:58 INFO  rootLogger:228 - Return: null
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:58 INFO  rootLogger:228 - Return: cpassword
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:58 INFO  rootLogger:228 - Return: cpassword
+2018-04-05 13:35:58 INFO  rootLogger:228 - id present
+2018-04-05 13:35:58 INFO  rootLogger:228 - Text box textPath: cpassword
+2018-04-05 13:35:58 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-05 13:35:58 INFO  rootLogger:228 - Text box name: cpassword
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:58 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='cpassword' or @id='cpassword' or @testid='cpassword')];xpath
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:35:58 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='cpassword' or @id='cpassword' or @testid='cpassword')];xpath
+2018-04-05 13:35:58 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:35:58 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='cpassword' or @id='cpassword' or @testid='cpassword')]
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:35:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:58 INFO  rootLogger:228 - frame: 
+2018-04-05 13:35:59 INFO  rootLogger:228 - Text box 'SPConfPassword' object not null. Entered Value: 'password'. Returning true.
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:35:59 INFO  rootLogger:228 - get driver object
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-05 13:35:59 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:35:59 INFO  rootLogger:228 - Text box field name: SPPhone
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:59 INFO  rootLogger:228 - Return: null
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:59 INFO  rootLogger:228 - Return: mobile
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:35:59 INFO  rootLogger:228 - Return: mobile
+2018-04-05 13:35:59 INFO  rootLogger:228 - id present
+2018-04-05 13:35:59 INFO  rootLogger:228 - Text box textPath: mobile
+2018-04-05 13:35:59 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-05 13:35:59 INFO  rootLogger:228 - Text box name: mobile
+2018-04-05 13:35:59 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:35:59 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')];xpath
+2018-04-05 13:36:14 INFO  rootLogger:228 - Element not found after timeout of 15 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')] (tried for 15 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:36:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:36:14 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')];xpath
+2018-04-05 13:36:14 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:36:14 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
+2018-04-05 13:36:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:36:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:36:14 INFO  rootLogger:228 - frame: 
+2018-04-05 13:36:15 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:36:16 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.7ceiIShxiAG9, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=7324, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 3ac3a99d-d7c4-4db7-8f79-26e44cee8a73
+*** Element info: {Using=xpath, value=//*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]}
+2018-04-05 13:36:16 INFO  rootLogger:228 - Text box 'SPPhone' object is null. Returning false.
+2018-04-05 13:36:16 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:36:16 INFO  rootLogger:228 - Scenario: Verify Service Provider Sign Up - Failed
+2018-04-05 13:36:16 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:36:18 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:36:18 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:36:18 INFO  rootLogger:228 - Scenario: Verify Service Provider Sign Up complete.
+2018-04-05 13:36:18 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:36:18 INFO  rootLogger:228 - Scenario: Verify facebook login fuctionality starting.
+2018-04-05 13:36:18 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:36:18 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Start
+2018-04-05 13:36:18 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-05 13:36:18 INFO  rootLogger:228 - Initializing JSON files
+2018-04-05 13:36:18 INFO  rootLogger:228 - Class: SetUpFile; Method: launchApplication
+2018-04-05 13:36:25 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:36:25 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:36:25 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:36:25 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:36:25 INFO  rootLogger:228 - get driver object
+2018-04-05 13:36:25 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:36:35 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:36:35 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Complete
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:36:35 INFO  rootLogger:228 - get driver object
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-05 13:36:35 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:36:35 INFO  rootLogger:228 - Button to be clicked: Login
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:36:35 INFO  rootLogger:228 - Return: //a[@class='topMenuRound' and text()='Login']
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:36:35 INFO  rootLogger:228 - Return: //a[@class='topMenuRound' and text()='Login']
+2018-04-05 13:36:35 INFO  rootLogger:228 - xpath present
+2018-04-05 13:36:35 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:36:35 INFO  rootLogger:228 - frame: //a[@class='topMenuRound' and text()='Login'];xpath
+2018-04-05 13:36:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:36:36 INFO  rootLogger:228 - propField: //a[@class='topMenuRound' and text()='Login'];xpath
+2018-04-05 13:36:36 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:36:36 INFO  rootLogger:228 - switchValue: //a[@class='topMenuRound' and text()='Login']
+2018-04-05 13:36:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:36:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:36:36 INFO  rootLogger:228 - frame: 
+2018-04-05 13:36:38 INFO  rootLogger:228 - Button 'Login' object not null and is clicked. Returning true.
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-05 13:36:38 INFO  rootLogger:228 - Pagename: 
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:36:38 INFO  rootLogger:228 - get driver object
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: Page; Method: clickMiscElement
+2018-04-05 13:36:38 INFO  rootLogger:228 - Current tab name: 
+2018-04-05 13:36:38 INFO  rootLogger:228 - ImageName: FacebookLogin
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:36:38 INFO  rootLogger:228 - Return: //div[@class='facebookSignUpBtn']
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:36:38 INFO  rootLogger:228 - Return: //div[@class='facebookSignUpBtn']
+2018-04-05 13:36:38 INFO  rootLogger:228 - xpath present
+2018-04-05 13:36:38 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:36:38 INFO  rootLogger:228 - frame: //div[@class='facebookSignUpBtn'];xpath
+2018-04-05 13:36:49 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='facebookSignUpBtn'] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.s31fx1sKLXme, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=9172, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 673e82b8-8a95-4ac6-9bce-12b502d3a7ce
+2018-04-05 13:36:49 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:36:49 INFO  rootLogger:228 - propField: //div[@class='facebookSignUpBtn'];xpath
+2018-04-05 13:36:49 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:36:49 INFO  rootLogger:228 - switchValue: //div[@class='facebookSignUpBtn']
+2018-04-05 13:36:49 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:36:49 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:36:49 INFO  rootLogger:228 - frame: 
+2018-04-05 13:36:50 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='facebookSignUpBtn'] (tried for 1 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.s31fx1sKLXme, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=9172, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 673e82b8-8a95-4ac6-9bce-12b502d3a7ce
+2018-04-05 13:37:06 INFO  rootLogger:228 - Element: 'FacebookLogin' exist and clicked. Returning true.
+2018-04-05 13:37:06 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:37:06 INFO  rootLogger:228 - Scenario: Verify facebook login fuctionality complete.
+2018-04-05 13:37:06 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:37:06 INFO  rootLogger:228 - Scenario: Verify forgot password functionality starting.
+2018-04-05 13:37:06 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:37:06 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Start
+2018-04-05 13:37:06 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-05 13:37:06 INFO  rootLogger:228 - Initializing JSON files
+2018-04-05 13:37:06 INFO  rootLogger:228 - Class: SetUpFile; Method: launchApplication
+2018-04-05 13:37:17 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:37:17 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:37:17 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:37:17 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:37:17 INFO  rootLogger:228 - get driver object
+2018-04-05 13:37:17 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:37:29 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:37:29 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: launchApplication : Complete
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:37:29 INFO  rootLogger:228 - get driver object
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-05 13:37:29 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:37:29 INFO  rootLogger:228 - Button to be clicked: Login
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:29 INFO  rootLogger:228 - Return: //a[@class='topMenuRound' and text()='Login']
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:29 INFO  rootLogger:228 - Return: //a[@class='topMenuRound' and text()='Login']
+2018-04-05 13:37:29 INFO  rootLogger:228 - xpath present
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:29 INFO  rootLogger:228 - frame: //a[@class='topMenuRound' and text()='Login'];xpath
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:37:29 INFO  rootLogger:228 - propField: //a[@class='topMenuRound' and text()='Login'];xpath
+2018-04-05 13:37:29 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:37:29 INFO  rootLogger:228 - switchValue: //a[@class='topMenuRound' and text()='Login']
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:37:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:29 INFO  rootLogger:228 - frame: 
+2018-04-05 13:37:31 INFO  rootLogger:228 - Button 'Login' object not null and is clicked. Returning true.
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-05 13:37:31 INFO  rootLogger:228 - Pagename: 
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:37:31 INFO  rootLogger:228 - get driver object
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: Page; Method: clickMiscElement
+2018-04-05 13:37:31 INFO  rootLogger:228 - Current tab name: 
+2018-04-05 13:37:31 INFO  rootLogger:228 - ImageName: ForgotPassword
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:31 INFO  rootLogger:228 - Return: //span[text()='Forgot Password?']
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:31 INFO  rootLogger:228 - Return: //span[text()='Forgot Password?']
+2018-04-05 13:37:31 INFO  rootLogger:228 - xpath present
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:31 INFO  rootLogger:228 - frame: //span[text()='Forgot Password?'];xpath
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:37:31 INFO  rootLogger:228 - propField: //span[text()='Forgot Password?'];xpath
+2018-04-05 13:37:31 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:37:31 INFO  rootLogger:228 - switchValue: //span[text()='Forgot Password?']
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:37:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:31 INFO  rootLogger:228 - frame: 
+2018-04-05 13:37:32 INFO  rootLogger:228 - Element: 'ForgotPassword' exist and clicked. Returning true.
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:37:32 INFO  rootLogger:228 - get driver object
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: Page; Method: setTextBox
+2018-04-05 13:37:32 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:37:32 INFO  rootLogger:228 - Text box field name: RegisteredEmail
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:32 INFO  rootLogger:228 - Return: null
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:32 INFO  rootLogger:228 - Return: input_registredEmailId
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:32 INFO  rootLogger:228 - Return: input_registredEmailId
+2018-04-05 13:37:32 INFO  rootLogger:228 - id present
+2018-04-05 13:37:32 INFO  rootLogger:228 - Text box textPath: input_registredEmailId
+2018-04-05 13:37:32 INFO  rootLogger:228 - Text box textMethod: id
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: Page; Method: findTextBox
+2018-04-05 13:37:32 INFO  rootLogger:228 - Text box name: input_registredEmailId
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:32 INFO  rootLogger:228 - frame: //*[(local-name()='input' or local-name()='textarea') and (@name='input_registredEmailId' or @id='input_registredEmailId' or @testid='input_registredEmailId')];xpath
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:37:32 INFO  rootLogger:228 - propField: //*[(local-name()='input' or local-name()='textarea') and (@name='input_registredEmailId' or @id='input_registredEmailId' or @testid='input_registredEmailId')];xpath
+2018-04-05 13:37:32 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:37:32 INFO  rootLogger:228 - switchValue: //*[(local-name()='input' or local-name()='textarea') and (@name='input_registredEmailId' or @id='input_registredEmailId' or @testid='input_registredEmailId')]
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:37:32 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:32 INFO  rootLogger:228 - frame: 
+2018-04-05 13:37:34 INFO  rootLogger:228 - Text box 'RegisteredEmail' object not null. Entered Value: 'aparna.b@myapps-solutions.com'. Returning true.
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:37:34 INFO  rootLogger:228 - get driver object
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: Page; Method: clickButton
+2018-04-05 13:37:34 INFO  rootLogger:228 - Current page name: 
+2018-04-05 13:37:34 INFO  rootLogger:228 - Button to be clicked: ResetMyPassword
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:34 INFO  rootLogger:228 - Return: null
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:34 INFO  rootLogger:228 - Return: button_resetPassword
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:34 INFO  rootLogger:228 - Return: button_resetPassword
+2018-04-05 13:37:34 INFO  rootLogger:228 - id present
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:34 INFO  rootLogger:228 - frame: button_resetPassword;id
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:37:34 INFO  rootLogger:228 - propField: button_resetPassword;id
+2018-04-05 13:37:34 INFO  rootLogger:228 - switchType: id
+2018-04-05 13:37:34 INFO  rootLogger:228 - switchValue: button_resetPassword
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:37:34 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:34 INFO  rootLogger:228 - frame: 
+2018-04-05 13:37:35 INFO  rootLogger:228 - Button 'ResetMyPassword' object not null and is clicked. Returning true.
+2018-04-05 13:37:35 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-04-05 13:37:35 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:37:35 INFO  rootLogger:228 - Scenario: Verify forgot password functionality complete.
+2018-04-05 13:37:35 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:37:35 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation starting.
+2018-04-05 13:37:35 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:37:35 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:37:35 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:37:35 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:37:35 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowser
+2018-04-05 13:37:36 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:37:36 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:37:36 INFO  rootLogger:228 - Class: SetUpFile; Method: constructor
+2018-04-05 13:37:36 INFO  rootLogger:228 - Initializing JSON files
+2018-04-05 13:37:36 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:37:43 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:37:43 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:37:43 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:37:43 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:37:43 INFO  rootLogger:228 - get driver object
+2018-04-05 13:37:43 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:54 INFO  rootLogger:228 - Return: username
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:54 INFO  rootLogger:228 - Return: password
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:54 INFO  rootLogger:228 - Return: null
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:54 INFO  rootLogger:228 - frame: 
+2018-04-05 13:37:54 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:37:54 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:54 INFO  rootLogger:228 - frame: 
+2018-04-05 13:37:56 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:37:56 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:37:56 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:37:56 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:37:56 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:37:56 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:37:56 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:37:56 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:37:56 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:37:56 INFO  rootLogger:228 - frame: 
+2018-04-05 13:37:58 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:37:58 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:37:58 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:37:58 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:37:58 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:37:58 INFO  rootLogger:228 - get driver object
+2018-04-05 13:37:58 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:37:58 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:38:18 INFO  rootLogger:228 - get driver object
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:38:18 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:38:18 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:38:18 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:38:18 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:38:18 INFO  rootLogger:228 - get driver object
+2018-04-05 13:38:18 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:38:18 INFO  rootLogger:228 - frame: 
+2018-04-05 13:38:28 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:38:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:38:28 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:38:28 INFO  rootLogger:228 - frame: 
+2018-04-05 13:38:29 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:38:29 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.es6KqRKl33fl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=9700, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: bed7223d-15d7-4369-9bcb-02d3b471492d
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:38:30 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:38:30 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation - Failed
+2018-04-05 13:38:30 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:38:31 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:38:31 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:38:31 INFO  rootLogger:228 - Scenario: Verify Conference Facility Creation complete.
+2018-04-05 13:38:31 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:38:31 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility starting.
+2018-04-05 13:38:31 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:38:31 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:38:31 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:38:31 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:38:31 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:38:37 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:38:37 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:38:37 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:38:37 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:38:37 INFO  rootLogger:228 - get driver object
+2018-04-05 13:38:37 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:38:47 INFO  rootLogger:228 - Return: username
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:38:47 INFO  rootLogger:228 - Return: password
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:38:47 INFO  rootLogger:228 - Return: null
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:38:47 INFO  rootLogger:228 - frame: 
+2018-04-05 13:38:47 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:38:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:38:47 INFO  rootLogger:228 - frame: 
+2018-04-05 13:38:48 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:38:48 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:38:48 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:38:48 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:38:48 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:38:48 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:38:48 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:38:48 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:38:48 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:38:48 INFO  rootLogger:228 - frame: 
+2018-04-05 13:38:50 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:38:50 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:38:50 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:38:50 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:38:50 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:38:50 INFO  rootLogger:228 - get driver object
+2018-04-05 13:38:50 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:38:50 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:39:10 INFO  rootLogger:228 - get driver object
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:39:10 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:39:10 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:39:10 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:39:10 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:39:10 INFO  rootLogger:228 - get driver object
+2018-04-05 13:39:10 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:39:10 INFO  rootLogger:228 - frame: 
+2018-04-05 13:39:21 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:39:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:39:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:39:21 INFO  rootLogger:228 - frame: 
+2018-04-05 13:39:22 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:39:22 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.KC4oPfnEkzLy, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=7328, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 79ef5ccb-d3ef-416b-80d3-5f5cbcd9e6bc
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:39:22 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:39:22 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility - Failed
+2018-04-05 13:39:22 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:39:23 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:39:23 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:39:23 INFO  rootLogger:228 - Scenario: Verify  conference Block Facility complete.
+2018-04-05 13:39:23 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:39:23 INFO  rootLogger:228 - Scenario: Verify  conference Deactivate Facility starting.
+2018-04-05 13:39:23 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:39:23 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:39:23 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:39:23 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:39:23 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:39:29 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:39:30 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:39:30 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:39:30 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:39:30 INFO  rootLogger:228 - get driver object
+2018-04-05 13:39:30 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:39:42 INFO  rootLogger:228 - Return: username
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:39:42 INFO  rootLogger:228 - Return: password
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:39:42 INFO  rootLogger:228 - Return: null
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:39:42 INFO  rootLogger:228 - frame: 
+2018-04-05 13:39:42 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:39:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:39:42 INFO  rootLogger:228 - frame: 
+2018-04-05 13:39:44 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:39:44 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:39:44 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:39:44 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:39:44 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:39:44 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:39:44 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:39:44 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:39:44 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:39:44 INFO  rootLogger:228 - frame: 
+2018-04-05 13:39:46 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:39:46 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:39:46 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:39:46 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:39:46 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:39:46 INFO  rootLogger:228 - get driver object
+2018-04-05 13:39:46 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:39:46 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:40:06 INFO  rootLogger:228 - get driver object
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:40:06 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:40:06 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:40:06 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:40:06 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:40:06 INFO  rootLogger:228 - get driver object
+2018-04-05 13:40:06 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:40:06 INFO  rootLogger:228 - frame: 
+2018-04-05 13:40:17 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:40:17 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:40:17 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:40:17 INFO  rootLogger:228 - frame: 
+2018-04-05 13:40:18 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:40:18 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.8f2dGvmGAR7l, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=9552, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 4e2a5ea3-bc78-40e5-a933-7567cbf98fd9
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:40:18 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:40:18 INFO  rootLogger:228 - Scenario: Verify  conference Deactivate Facility - Failed
+2018-04-05 13:40:18 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:40:19 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:40:19 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:40:19 INFO  rootLogger:228 - Scenario: Verify  conference Deactivate Facility complete.
+2018-04-05 13:40:19 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:40:19 INFO  rootLogger:228 - Scenario: Verify  conference Activate Facility starting.
+2018-04-05 13:40:19 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:40:19 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:40:19 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:40:19 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:40:19 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:40:26 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:40:26 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:40:26 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:40:26 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:40:26 INFO  rootLogger:228 - get driver object
+2018-04-05 13:40:26 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:40:36 INFO  rootLogger:228 - Return: username
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:40:36 INFO  rootLogger:228 - Return: password
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:40:36 INFO  rootLogger:228 - Return: null
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:40:36 INFO  rootLogger:228 - frame: 
+2018-04-05 13:40:36 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:40:36 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:40:36 INFO  rootLogger:228 - frame: 
+2018-04-05 13:40:37 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:40:37 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:40:37 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:40:37 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:40:37 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:40:37 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:40:37 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:40:37 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:40:37 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:40:37 INFO  rootLogger:228 - frame: 
+2018-04-05 13:40:40 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:40:40 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:40:40 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:40:40 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:40:40 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:40:40 INFO  rootLogger:228 - get driver object
+2018-04-05 13:40:40 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:40:40 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:41:00 INFO  rootLogger:228 - get driver object
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:41:00 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:41:00 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:41:00 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:41:00 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:41:00 INFO  rootLogger:228 - get driver object
+2018-04-05 13:41:00 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:41:00 INFO  rootLogger:228 - frame: 
+2018-04-05 13:41:10 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:41:10 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:41:10 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:41:10 INFO  rootLogger:228 - frame: 
+2018-04-05 13:41:11 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:41:11 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.ZohQZYeQ0YJj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=9088, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 085515fd-2e0f-4d16-8036-0c1b83adedba
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:41:11 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:41:11 INFO  rootLogger:228 - Scenario: Verify  conference Activate Facility - Failed
+2018-04-05 13:41:11 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:41:12 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:41:12 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:41:12 INFO  rootLogger:228 - Scenario: Verify  conference Activate Facility complete.
+2018-04-05 13:41:12 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:41:12 INFO  rootLogger:228 - Scenario: Verify  conference Price Details Facility starting.
+2018-04-05 13:41:12 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:41:12 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:41:12 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:41:12 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:41:12 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:41:19 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:41:19 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:41:19 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:41:19 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:41:19 INFO  rootLogger:228 - get driver object
+2018-04-05 13:41:19 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:41:29 INFO  rootLogger:228 - Return: username
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:41:29 INFO  rootLogger:228 - Return: password
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:41:29 INFO  rootLogger:228 - Return: null
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:41:29 INFO  rootLogger:228 - frame: 
+2018-04-05 13:41:29 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:41:29 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:41:29 INFO  rootLogger:228 - frame: 
+2018-04-05 13:41:30 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:41:30 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:41:30 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:41:30 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:41:30 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:41:30 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:41:30 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:41:30 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:41:30 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:41:31 INFO  rootLogger:228 - frame: 
+2018-04-05 13:41:33 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:41:33 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:41:33 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:41:33 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:41:33 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:41:33 INFO  rootLogger:228 - get driver object
+2018-04-05 13:41:33 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:41:33 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:41:53 INFO  rootLogger:228 - get driver object
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:41:53 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:41:53 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:41:53 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:41:53 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:41:53 INFO  rootLogger:228 - get driver object
+2018-04-05 13:41:53 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:41:53 INFO  rootLogger:228 - frame: 
+2018-04-05 13:42:03 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:42:03 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:42:03 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:42:03 INFO  rootLogger:228 - frame: 
+2018-04-05 13:42:04 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:42:04 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.1ybXZxvZ0Vts, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=9568, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 3b43a584-0d2d-4af1-9d56-f50dd3fe4a1a
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:42:04 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:42:04 INFO  rootLogger:228 - Scenario: Verify  conference Price Details Facility - Failed
+2018-04-05 13:42:04 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:42:05 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:42:05 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:42:05 INFO  rootLogger:228 - Scenario: Verify  conference Price Details Facility complete.
+2018-04-05 13:42:05 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:42:05 INFO  rootLogger:228 - Scenario: Verify  conference facility edit starting.
+2018-04-05 13:42:05 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:42:05 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:42:05 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:42:05 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:42:05 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:42:10 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:42:10 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:42:10 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:42:10 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:42:10 INFO  rootLogger:228 - get driver object
+2018-04-05 13:42:10 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:42:21 INFO  rootLogger:228 - Return: username
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:42:21 INFO  rootLogger:228 - Return: password
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:42:21 INFO  rootLogger:228 - Return: null
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:42:21 INFO  rootLogger:228 - frame: 
+2018-04-05 13:42:21 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:42:21 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:42:21 INFO  rootLogger:228 - frame: 
+2018-04-05 13:42:22 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:42:22 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:42:22 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:42:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:42:22 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:42:22 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:42:22 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:42:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:42:22 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:42:22 INFO  rootLogger:228 - frame: 
+2018-04-05 13:42:25 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:42:25 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:42:25 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:42:25 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:42:25 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:42:25 INFO  rootLogger:228 - get driver object
+2018-04-05 13:42:25 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:42:25 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:42:45 INFO  rootLogger:228 - get driver object
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:42:45 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:42:45 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:42:45 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:42:45 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:42:45 INFO  rootLogger:228 - get driver object
+2018-04-05 13:42:45 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:42:45 INFO  rootLogger:228 - frame: 
+2018-04-05 13:42:55 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:42:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:42:55 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:42:55 INFO  rootLogger:228 - frame: 
+2018-04-05 13:42:56 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:42:56 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.HQpCR0bS6yMr, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=8640, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: a7829f4b-beda-47ec-b544-f8d9ac392884
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:42:56 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:42:56 INFO  rootLogger:228 - Scenario: Verify  conference facility edit - Failed
+2018-04-05 13:42:56 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:42:57 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:42:57 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:42:57 INFO  rootLogger:228 - Scenario: Verify  conference facility edit complete.
+2018-04-05 13:42:57 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:42:57 INFO  rootLogger:228 - Scenario: Verify conference cancelled booking starting.
+2018-04-05 13:42:57 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:42:57 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:42:57 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:42:57 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:42:57 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:43:04 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:43:04 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:43:04 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:43:04 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:43:04 INFO  rootLogger:228 - get driver object
+2018-04-05 13:43:04 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:43:13 INFO  rootLogger:228 - Return: username
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:43:13 INFO  rootLogger:228 - Return: password
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:43:13 INFO  rootLogger:228 - Return: null
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:43:13 INFO  rootLogger:228 - frame: 
+2018-04-05 13:43:13 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:43:13 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:43:13 INFO  rootLogger:228 - frame: 
+2018-04-05 13:43:14 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:43:14 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:43:14 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:43:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:43:14 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:43:14 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:43:14 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:43:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:43:14 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:43:14 INFO  rootLogger:228 - frame: 
+2018-04-05 13:43:17 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:43:17 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:43:17 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:43:17 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:43:17 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:43:17 INFO  rootLogger:228 - get driver object
+2018-04-05 13:43:17 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:43:17 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:43:37 INFO  rootLogger:228 - get driver object
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:43:37 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:43:37 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:43:37 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:43:37 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:43:37 INFO  rootLogger:228 - get driver object
+2018-04-05 13:43:37 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:43:37 INFO  rootLogger:228 - frame: 
+2018-04-05 13:43:47 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:43:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:43:47 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:43:47 INFO  rootLogger:228 - frame: 
+2018-04-05 13:43:48 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:43:48 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.7pMpl9wS5x9s, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=10836, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 6e694eee-8005-47b3-9ac6-525b26553a73
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:43:48 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:43:48 INFO  rootLogger:228 - Scenario: Verify conference cancelled booking - Failed
+2018-04-05 13:43:48 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:43:49 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:43:49 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:43:49 INFO  rootLogger:228 - Scenario: Verify conference cancelled booking complete.
+2018-04-05 13:43:49 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:43:49 INFO  rootLogger:228 - Scenario: Verify Coworking Facility Creation starting.
+2018-04-05 13:43:49 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:43:49 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:43:49 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:43:49 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:43:49 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:43:56 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:43:56 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:43:56 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:43:56 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:43:56 INFO  rootLogger:228 - get driver object
+2018-04-05 13:43:56 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:44:08 INFO  rootLogger:228 - Return: username
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:44:08 INFO  rootLogger:228 - Return: password
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:44:08 INFO  rootLogger:228 - Return: null
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:44:08 INFO  rootLogger:228 - frame: 
+2018-04-05 13:44:08 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:44:08 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:44:08 INFO  rootLogger:228 - frame: 
+2018-04-05 13:44:09 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:44:09 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:44:09 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:44:09 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:44:09 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:44:09 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:44:09 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:44:09 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:44:09 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:44:09 INFO  rootLogger:228 - frame: 
+2018-04-05 13:44:11 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:44:11 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:44:11 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:44:11 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:44:11 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:44:11 INFO  rootLogger:228 - get driver object
+2018-04-05 13:44:11 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:44:11 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:44:31 INFO  rootLogger:228 - get driver object
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 13:44:31 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 13:44:31 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:44:31 INFO  rootLogger:228 - Exception: null
+2018-04-05 13:44:31 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 13:44:31 INFO  rootLogger:228 - get driver object
+2018-04-05 13:44:31 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:44:31 INFO  rootLogger:228 - frame: 
+2018-04-05 13:44:42 INFO  rootLogger:228 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:44:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:44:42 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:44:42 INFO  rootLogger:228 - frame: 
+2018-04-05 13:44:43 INFO  rootLogger:228 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.tagName: service-provider-header (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-05 13:44:43 INFO  rootLogger:228 - Element not found. Returning null. Exception: Unable to locate element: service\-provider\-header
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO', ip: '192.168.2.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.SB0yTu4HIu86, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=7488, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: a9f23484-9811-44a4-a020-190116702a03
+*** Element info: {Using=tag name, value=service-provider-header}
+2018-04-05 13:44:43 INFO  rootLogger:228 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-05 13:44:43 INFO  rootLogger:228 - Scenario: Verify Coworking Facility Creation - Failed
+2018-04-05 13:44:43 INFO  rootLogger:228 - Class: Hooks; Method: takeScreenShot
+2018-04-05 13:44:44 INFO  rootLogger:228 - Browser closed
+2018-04-05 13:44:44 INFO  rootLogger:228 - Tried to kill process with PID: 
+2018-04-05 13:44:44 INFO  rootLogger:228 - Scenario: Verify Coworking Facility Creation complete.
+2018-04-05 13:44:44 INFO  rootLogger:228 - Class: Hooks; Method: setUp
+2018-04-05 13:44:44 INFO  rootLogger:228 - Scenario: Verify cowork Block Facility starting.
+2018-04-05 13:44:44 INFO  rootLogger:228 - Scenario Tag Name: @Sanity
+2018-04-05 13:44:44 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-05 13:44:44 INFO  rootLogger:228 - Class: Hooks; Method: openBrowser
+2018-04-05 13:44:44 INFO  rootLogger:228 - userName: myappssolutions32@gmail.com
+2018-04-05 13:44:44 INFO  rootLogger:228 - Class: SetUpFile; Method: setUpBrowser
+2018-04-05 13:44:50 INFO  rootLogger:228 - Firefox driver initialized
+2018-04-05 13:44:50 INFO  rootLogger:228 - Error getting child PID for geckodriver.exe from parent process 1912. Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:44:50 INFO  rootLogger:228 - Error getting child PID for firefox.exe from parent process . Cannot run program "wmic": CreateProcess error=2, The system cannot find the file specified
+2018-04-05 13:44:50 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:44:50 INFO  rootLogger:228 - get driver object
+2018-04-05 13:44:50 INFO  rootLogger:228 - Class: SetUpFile; Method: openURL
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: SetUpFile; Method: logInApplication
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:45:02 INFO  rootLogger:228 - Return: username
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:45:02 INFO  rootLogger:228 - Return: password
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:45:02 INFO  rootLogger:228 - Return: null
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:45:02 INFO  rootLogger:228 - frame: 
+2018-04-05 13:45:02 INFO  rootLogger:228 - UserName: myappssolutions32@gmail.com entered
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:45:02 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:45:02 INFO  rootLogger:228 - frame: 
+2018-04-05 13:45:03 INFO  rootLogger:228 - Password: password entered
+2018-04-05 13:45:03 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 13:45:03 INFO  rootLogger:228 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:45:03 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: setByValues
+2018-04-05 13:45:03 INFO  rootLogger:228 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:45:03 INFO  rootLogger:228 - switchType: xpath
+2018-04-05 13:45:03 INFO  rootLogger:228 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-05 13:45:03 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: findElement
+2018-04-05 13:45:03 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 13:45:03 INFO  rootLogger:228 - frame: 
+2018-04-05 13:45:05 INFO  rootLogger:228 - Login button clicked
+2018-04-05 13:45:05 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-05 13:45:05 INFO  rootLogger:228 - parentWindow: 4294967297
+2018-04-05 13:45:05 INFO  rootLogger:228 - windowHandle: 4294967297
+2018-04-05 13:45:05 INFO  rootLogger:228 - Class: Hooks; Method: setDriver
+2018-04-05 13:45:05 INFO  rootLogger:228 - get driver object
+2018-04-05 13:45:05 INFO  rootLogger:228 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-05 13:45:05 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 14:39:00 INFO  rootLogger:228 - get driver object
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: Page; Method: findPage
+2018-04-05 14:39:00 INFO  rootLogger:228 - Current tab name: ServiceProvider
+2018-04-05 14:39:00 INFO  rootLogger:228 - PaneName: ServiceProvider
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-05 14:39:00 INFO  rootLogger:228 - Exception: null
+2018-04-05 14:39:00 INFO  rootLogger:228 - Pane xpath: null
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: Hooks; Method: getDriver
+2018-04-05 14:39:00 INFO  rootLogger:228 - get driver object
+2018-04-05 14:39:00 INFO  rootLogger:228 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-05 14:39:00 INFO  rootLogger:228 - frame: 
