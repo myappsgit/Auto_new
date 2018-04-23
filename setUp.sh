@@ -1,3 +1,5 @@
+#! /bin/bash
+
 IF EXIST setUp.txt (
         del setUp.txt
     )
