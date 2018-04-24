@@ -5,3 +5,15 @@ APP
 firefox
 SECTION
 Huddil
+TAG_NAME
+%~1
+%~2
+%~3
+%~4
+%~5
+TAG_NAME
+%~1
+%~2
+%~3
+%~4
+%~5

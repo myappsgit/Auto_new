@@ -1,0 +1,5229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script type="text/javascript" src="js/highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Html Reports  - Feature: Service Provider</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Huddil</td>
+                          <td>1</td>
+                        <td>24 Apr 2018, 07:06</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Feature Report</h2>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        <thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="7">Steps</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+        <th>Total</th>
+    <th>Passed</th>
+    <th>Failed</th>
+    <th>Total</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="missing">Missing</th>
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+        <tbody>
+        <tr>
+          <td class="tagname">Service Provider</td>
+          <td>8</td>
+          <td>8</td>
+          <td>0</td>
+          <td>179</td>
+          <td>0</td>
+          <td     class="failed"    >8</td>
+          <td    class="skipped"   >171</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="duration" data-value="481998274837">8m 1s 998 ms</td>
+          <td class="failed">Failed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+        
+<div class="tags indention">
+  </div>
+
+        
+<div class="brief failed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">Service Provider</span>
+  
+
+  </div>
+
+        <div class="description indention"></div>
+
+        <div class="elements inner-level">
+          
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1977493952">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-1977493952" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-1175662879">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1175662879" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 1s 550 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg--393953196">
+          <a>Error message</a>
+      </div>
+      <div id="msg--393953196" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.13 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element--394105702">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify Conference Facility Creation</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--394105702" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-1290358063">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-1290358063" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">001 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-1119371910">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1119371910" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Facility" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Add Facility" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Conference Room" from the "Select Facility Type" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Add Location" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Bangalore" from the "Select City" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "JP Nagar" from the "Locality" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "bilekahalli" in the "Please Enter Name" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "dsr galleria" in the "Please Enter address" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "signal" in the "Please Enter landmark" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "incubex" in the "Please Enter nearBy" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "These terms and conditions, are subjected to change from time to time, shall apply to all our services" in the "Terms And Conditions" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Add" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "bilekahalli" from the "Building/Location" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "conference 999" in the "Facility Meeting Room Name" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "100" in the "Facility No Of Seats" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "1000" in the "Facility Area Size Sq" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "adding conference room" in the "Facility Description" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "30" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I check the following checkboxes</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+                              <table class="step-arguments">
+                                      <tr>
+                                              <td>Power Backup</td>
+                                          </tr>
+                                      <tr>
+                                              <td>WiFi</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Projector</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Security</td>
+                                          </tr>
+                                      <tr>
+                                              <td>AC</td>
+                                          </tr>
+                                      <tr>
+                                              <td>White Board</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Car Parking</td>
+                                          </tr>
+                                      <tr>
+                                              <td>2 Parking</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Leased Line</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Print/Scan</td>
+                                          </tr>
+                                  </table>
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Next" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "10" in the "Cost Per Hour" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "100" in the "Cost Per Day" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "1000" in the "Cost Per Month" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Offer Add" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2018-03-2" in the "From" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2018-03-2" in the "To" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "10" in the "% Of Offer" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Cancel Add" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "1" in the "No Of Days Before" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "10" in the "% Of Deduction" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2" in the "No Of Days Before2" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "20" in the "% Of Deduction2" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "3" in the "No Of Days Before3" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "30" in the "% Of Deduction3" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "8497995311" in the "Sp Contact Number" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "aparna.b@myapps-solutions.com" in the "Sp Email" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Both" from the "Payment Mode" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I check the "Request Huddil Verfication" checkbox</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Next2" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Submit" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Success OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-392795843">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-392795843" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1955406455">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-1955406455" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-797539755">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-797539755" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 103 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg--177717193">
+          <a>Error message</a>
+      </div>
+      <div id="msg--177717193" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element--744392215">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify  conference Block Facility</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--744392215" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-1168956689">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-1168956689" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-1492358500">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1492358500" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Facility" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "conference 1" in the "Facility Title" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Search" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "5" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I select the facility "conference 1"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "3" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Manage Facility" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "5" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select the "Block Facility" radiobutton</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2018-04-20 18:00:00" in the "From Date" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2018-04-30 19:00:00" in the "To Date" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Block Facility" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-46852536">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-46852536" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1756988236">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-1756988236" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-549049813">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-549049813" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 056 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-429604917">
+          <a>Error message</a>
+      </div>
+      <div id="msg-429604917" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1960032662">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify  conference Deactivate Facility</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-1960032662" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-708222484">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-708222484" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">001 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-621432843">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-621432843" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Facility" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "conf 3" in the "Facility Title" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Search" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "5" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I select the facility "conf 3"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Manage Facility" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "10" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select the "Deactivate Facility" radiobutton</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "Not good" in the "Reason For Deactivation" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Deactivate" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "10" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Confirm" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-246168102">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-246168102" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">004 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-2066770847">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-2066770847" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-154449199">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-154449199" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 060 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-1036927027">
+          <a>Error message</a>
+      </div>
+      <div id="msg-1036927027" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-2019916407">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify  conference Activate Facility</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-2019916407" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-691540605">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-691540605" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-1111173986">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1111173986" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Facility" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "conf 3" in the "Facility Title" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Search" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "5" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I select the facility "conf 3"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Manage Facility" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "10" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select the "Activate Facility" radiobutton</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Activate" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "10" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-77163673">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-77163673" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1976870927">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-1976870927" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-1167522035">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1167522035" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 039 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-1036927027">
+          <a>Error message</a>
+      </div>
+      <div id="msg-1036927027" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element--2015727144">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify  conference Price Details Facility</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--2015727144" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-594586746">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-594586746" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-558913557">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-558913557" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Facility" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "conf 3" in the "Facility Title" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Search" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I select the facility "conf 3"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Manage Facility" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "10" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select the "Price Details" radiobutton</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "2" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "10" in the "Update Cost Per Hour" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "100" in the "Update Cost Per Day" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "1000" in the "Update Cost Per Month" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Update Price" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-2008762581">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-2008762581" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-193492784">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-193492784" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-643328884">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-643328884" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 063 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-1036927027">
+          <a>Error message</a>
+      </div>
+      <div id="msg-1036927027" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-446134318">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify  conference facility edit</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-446134318" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-983834017">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-983834017" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-657252457">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-657252457" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Facility" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Filter" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Conference Room" from the "SelectFacilityType1" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Denied" from the "Select Status" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Search" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "5" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I select the facility "conference 12"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Edit" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "100" in the "Facility No Of Seats" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Next" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Next3" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Submit" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-767764251">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-767764251" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">003 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-737897289">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-737897289" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-523528914">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-523528914" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 063 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-1036927027">
+          <a>Error message</a>
+      </div>
+      <div id="msg-1036927027" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-285169070">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify conference cancelled booking</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-285169070" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-909918801">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-909918801" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-104367332">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-104367332" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Booking" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "305" in the "Booking Id" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Search" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "5" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the element with booking id "305" and booking status "Confirmed"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Cancel Booking" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "YES" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Success OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-438493423">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-438493423" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">006 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-2136291489">
+      
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-2136291489" class="collapse collapsable-details  in ">
+      
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-1929218620">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1929218620" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"</span>
+  
+  <span class="lead-duration duration">1m 060 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-733265972">
+          <a>Error message</a>
+      </div>
+      <div id="msg-733265972" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:156)
+	at utils.SetUpFile.setUpBrowser(SetUpFile.java:178)
+	at stepDefinitions.Hooks.openBrowser(Hooks.java:60)
+	at stepDefinitions.LoginStepdefs.applicationLogin(LoginStepdefs.java:55)
+	at ✽.Given I am logged into the application with user "myappssolutions33@gmail.com" and password "password1"(ServiceProvider.feature:4)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "20" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the "Service Provider" page should load</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="element">
+    
+    
+<div class="tags indention">
+       <a href="Sanity1.html">@Sanity1</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-55669695">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify Coworking Facility Creation</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-55669695" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-1395725953">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-1395725953" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">Hooks.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-1966787205">
+          
+<div class="brief skipped">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1966787205" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I click the "Facility" element</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Add Facility" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Co-Working Space" from the "Select Facility Type" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Add Location" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Bangalore" from the "Select City" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "JP Nagar" from the "Locality" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "bilekahalli" in the "Please Enter Name" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "dsr galleria" in the "Please Enter address" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "signal" in the "Please Enter landmark" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "incubex" in the "Please Enter nearBy" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Add" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "bilekahalli" from the "Building/Location" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "coworking 888" in the "Facility Meeting Room Name" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "100" in the "Facility No Of Seats" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "1000" in the "Facility Area Size Sq" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "adding coworking room" in the "Facility Description" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "30" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I check the following checkboxes</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+                              <table class="step-arguments">
+                                      <tr>
+                                              <td>WiFi</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Car Parking</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Power Backup</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Security</td>
+                                          </tr>
+                                      <tr>
+                                              <td>AC</td>
+                                          </tr>
+                                      <tr>
+                                              <td>White Board</td>
+                                          </tr>
+                                      <tr>
+                                              <td>2 Parking</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Leased Line</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Print/Scan</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Explore</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Event Seat</td>
+                                          </tr>
+                                      <tr>
+                                              <td>Finger Print</td>
+                                          </tr>
+                                  </table>
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Next" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "100" in the "Cost Per Day" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "1000" in the "Cost Per Month" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Offer Add" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2018-03-3" in the "From" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2018-03-4" in the "To" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "10" in the "% Of Offer" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Cancel Add" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "1" in the "No Of Days Before" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "10" in the "% Of Deduction" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "2" in the "No Of Days Before2" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "20" in the "% Of Deduction2" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "3" in the "No Of Days Before3" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "30" in the "% Of Deduction3" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "8497995311" in the "Sp Contact Number" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter "aparna.b@myapps-solutions.com" in the "Sp Email" field</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I select "Offline" from the "Payment Mode" dropdown</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I check the "Request Huddil Verfication" checkbox</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Next2" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the "Submit" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I wait "80" seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">I click the "Success OK" button</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-501855493">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-501855493" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">Hooks.closeBrowserAndTakeScreenShot(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

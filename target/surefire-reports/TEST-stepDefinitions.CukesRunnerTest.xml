@@ -1,116 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDefinitions.CukesRunnerTest" time="409.575" tests="76" errors="0" skipped="12" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDefinitions.CukesRunnerTest" time="483.598" tests="188" errors="17" skipped="171" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="cucumber.options" value="--tags @Sanity --tags ~@donotrun"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="cucumber.options" value="--tags @Sanity1 --tags ~@donotrun"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.171-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\huddil automation\Automation_SP\Automation-SP\Automation-SP1"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ubuntu/Auto/Sp "/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
+    <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\huddil automation\Automation_SP\Automation-SP\Automation-SP1"/>
-    <property name="java.runtime.version" value="1.8.0_144-b01"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="user.dir" value="/home/ubuntu/Auto/Sp "/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\aparna\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32;D:\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\android-sdk_r24.3.4-windows\android-sdk-windows\platform-tools\;C:\apache-maven-3.5.0\bin;C:\apache-maven-3.5.0\bin;C:\chrome driver;C:\Program Files (x86)\Skype\Phone\;C:\metasploit-framework\bin\;C:\Users\aparna\OWASP ZAP\webdriver\windows\64;C:\Python27;C:\Program Files\Git\cmd;C:\Program Files (x86)\HPE\Unified Functional Testing\bin;C:\Users\aparna\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\aparna\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\Java\jdk1.8.0_144\bin\;C:\Program Files (x86)\Nmap;C:\Users\aparna\AppData\Local\GitHubDesktop\bin;."/>
-    <property name="maven.conf" value="C:\apache-maven-3.5.0\bin\../conf"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.1"/>
-    <property name="library.jansi.path" value="C:\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
-    <property name="user.home" value="C:\Users\aparna"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.version" value="4.4.0-1052-aws"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="aparna"/>
-    <property name="java.class.path" value="C:\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @Sanity --tags ~@donotrun"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @Sanity1 --tags ~@donotrun"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_144"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.5.0\bin\.."/>
-    <property name="file.separator" value="\"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I launch the &quot;Huddil&quot; web application" classname="Scenario: Verify Service Provider Sign Up" time="0.003"/>
-  <testcase name="And I click the &quot;Partner With Us&quot; button" classname="Scenario: Verify Service Provider Sign Up" time="0"/>
-  <testcase name="And I enter &quot;aparna&quot; in the &quot;SP Owner Name&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0.001"/>
-  <testcase name="And I enter &quot;password&quot; in the &quot;SP Password&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0"/>
-  <testcase name="And I enter &quot;password&quot; in the &quot;SP Conf Password&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0"/>
-  <testcase name="And I enter &quot;8497995311&quot; in the &quot;SP Phone&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
-    <failure message="Text Box: SP Phone Object Not found" type="java.lang.AssertionError">java.lang.AssertionError: Text Box: SP Phone Object Not found
-</failure>
-    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')] (tried for 15 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at wrapper.SeleniumFunctions.explicitWait(SeleniumFunctions.java:182)
-	at support.Page.findTextBox(Page.java:386)
-	at support.Page.setTextBox(Page.java:416)
-	at stepDefinitions.GlobalStepdefs.enterInTheField(GlobalStepdefs.java:166)
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify Conference Facility Creation" time="0.017">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.14 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.14 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Verify Conference Facility Creation
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not read configuration file [/home/ubuntu/Auto/Sp \log4j.properties].
+java.io.FileNotFoundException: /home/ubuntu/Auto/Sp \log4j.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:316)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:342)
+	at constants.GlobalConstants.getLogger(GlobalConstants.java:71)
+	at utils.UtilFunctions.log(UtilFunctions.java:228)
+	at utils.UtilFunctions.getValueFromTextFile(UtilFunctions.java:243)
+	at utils.UtilProperty.<clinit>(UtilProperty.java:20)
+	at stepDefinitions.CukesRunnerTest.setUp(CukesRunnerTest.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
 	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
@@ -121,58 +102,26 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
-	... 45 more
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')] (tried for 1 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at wrapper.SeleniumFunctions.explicitWait(SeleniumFunctions.java:182)
-	at wrapper.SeleniumFunctions.findElement(SeleniumFunctions.java:42)
-	at support.Page.findTextBox(Page.java:387)
-	at support.Page.setTextBox(Page.java:416)
-	at stepDefinitions.GlobalStepdefs.enterInTheField(GlobalStepdefs.java:166)
+log4j:ERROR Ignoring configuration file [/home/ubuntu/Auto/Sp \log4j.properties].
+log4j:WARN No appenders could be found for logger (rootLogger).
+log4j:WARN Please initialize the log4j system properly.
+java.io.FileNotFoundException: /home/ubuntu/Auto/Sp \setUp.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at utils.UtilFunctions.getValueFromTextFile(UtilFunctions.java:244)
+	at utils.UtilProperty.<clinit>(UtilProperty.java:20)
+	at stepDefinitions.CukesRunnerTest.setUp(CukesRunnerTest.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
 	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
@@ -183,76 +132,23 @@ org.openqa.selenium.TimeoutException: Expected condition failed: waiting for vis
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
-	... 46 more
-org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LENOVO', ip: '192.168.3.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\aparna\AppData\Local\Temp\rust_mozprofile.cwiQWpiBBNtR, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=5452, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: 9ae0b08a-6bd6-4694-961e-3326495cc87a
-*** Element info: {Using=xpath, value=//*[(local-name()='input' or local-name()='textarea') and (@name='mobile' or @id='mobile' or @testid='mobile')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at wrapper.SeleniumFunctions.findElement(SeleniumFunctions.java:43)
-	at support.Page.findTextBox(Page.java:387)
-	at support.Page.setTextBox(Page.java:416)
-	at stepDefinitions.GlobalStepdefs.enterInTheField(GlobalStepdefs.java:166)
+java.io.FileNotFoundException: /home/ubuntu/Auto/Sp \setUp.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at utils.UtilFunctions.getValueFromTextFile(UtilFunctions.java:244)
+	at utils.UtilProperty.<clinit>(UtilProperty.java:21)
+	at stepDefinitions.CukesRunnerTest.setUp(CukesRunnerTest.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
 	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
@@ -263,103 +159,863 @@ Session ID: 9ae0b08a-6bd6-4694-961e-3326495cc87a
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+java.io.FileNotFoundException: /home/ubuntu/Auto/Sp \setUp.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at utils.UtilFunctions.getValueFromTextFile(UtilFunctions.java:244)
+	at utils.UtilProperty.<clinit>(UtilProperty.java:22)
+	at stepDefinitions.CukesRunnerTest.setUp(CukesRunnerTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+java.io.FileNotFoundException: /home/ubuntu/Auto/Sp /src/test\java\support\setUp.ini (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1045)
+	at org.ini4j.spi.IniSource.<init>(IniSource.java:59)
+	at org.ini4j.spi.AbstractParser.newIniSource(AbstractParser.java:68)
+	at org.ini4j.spi.IniParser.parse(IniParser.java:67)
+	at org.ini4j.Ini.load(Ini.java:119)
+	at org.ini4j.Ini.load(Ini.java:114)
+	at org.ini4j.Ini.load(Ini.java:99)
+	at org.ini4j.Ini.<init>(Ini.java:69)
+	at utils.UtilFunctions.getValueFromIniFile(UtilFunctions.java:279)
+	at utils.UtilProperty.<clinit>(UtilProperty.java:24)
+	at stepDefinitions.CukesRunnerTest.setUp(CukesRunnerTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+java.io.FileNotFoundException: /home/ubuntu/Auto/Sp /src/test\java\support\setUp.ini (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1045)
+	at org.ini4j.spi.IniSource.<init>(IniSource.java:59)
+	at org.ini4j.spi.AbstractParser.newIniSource(AbstractParser.java:68)
+	at org.ini4j.spi.IniParser.parse(IniParser.java:67)
+	at org.ini4j.Ini.load(Ini.java:119)
+	at org.ini4j.Ini.load(Ini.java:114)
+	at org.ini4j.Ini.load(Ini.java:99)
+	at org.ini4j.Ini.<init>(Ini.java:69)
+	at utils.UtilFunctions.getValueFromIniFile(UtilFunctions.java:279)
+	at utils.UtilProperty.<clinit>(UtilProperty.java:25)
+	at stepDefinitions.CukesRunnerTest.setUp(CukesRunnerTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+java.io.FileNotFoundException: /home/ubuntu/Auto/Sp /src/test\java\support\setUp.ini (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at java.net.URL.openStream(URL.java:1045)
+	at org.ini4j.spi.IniSource.<init>(IniSource.java:59)
+	at org.ini4j.spi.AbstractParser.newIniSource(AbstractParser.java:68)
+	at org.ini4j.spi.IniParser.parse(IniParser.java:67)
+	at org.ini4j.Ini.load(Ini.java:119)
+	at org.ini4j.Ini.load(Ini.java:114)
+	at org.ini4j.Ini.load(Ini.java:99)
+	at org.ini4j.Ini.<init>(Ini.java:69)
+	at utils.UtilFunctions.getValueFromIniFile(UtilFunctions.java:279)
+	at utils.UtilProperty.<clinit>(UtilProperty.java:26)
+	at stepDefinitions.CukesRunnerTest.setUp(CukesRunnerTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 7866
+Only local connections are allowed.
 ]]></system-err>
   </testcase>
-  <testcase name="Scenario: Verify Service Provider Sign Up" classname="Scenario: Verify Service Provider Sign Up" time="0">
-    <failure message="Text Box: SP Phone Object Not found" type="java.lang.AssertionError">java.lang.AssertionError: Text Box: SP Phone Object Not found
-</failure>
+  <testcase name="Scenario: Verify Conference Facility Creation" classname="Scenario: Verify Conference Facility Creation" time="0.027">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.14 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.14 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
   </testcase>
-  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;SP Email&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I enter &quot;myappssolutions&quot; in the &quot;SP Website&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I enter &quot;bangalore&quot; in the &quot;SP Address&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I enter &quot;560037&quot; in the &quot;SP Pincode&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I enter &quot;marathalli&quot; in the &quot;SP City&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I click the &quot;Add Facility&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I select &quot;Andhra Pradesh&quot; from the &quot;SPState&quot; dropdown" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I select &quot;Conference Room&quot; from the &quot;Select Facility Type&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I enter &quot;india&quot; in the &quot;SP Country&quot; field" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I click the &quot;Add Location&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I check the &quot;Sign Up Terms&quot; checkbox" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I select &quot;Bangalore&quot; from the &quot;Select City&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I click the &quot;SP Sign Up Submit&quot; button" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I select &quot;JP Nagar&quot; from the &quot;Locality&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="And I wait &quot;10&quot; seconds" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I enter &quot;bilekahalli&quot; in the &quot;Please Enter Name&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="Then the following elements should be displayed" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I enter &quot;dsr galleria&quot; in the &quot;Please Enter address&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="Then the element &quot;Con Enter OTP&quot; should be displayed" classname="Scenario: Verify Service Provider Sign Up" time="0">
+  <testcase name="And I enter &quot;signal&quot; in the &quot;Please Enter landmark&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
     <skipped/>
   </testcase>
-  <testcase name="Given I launch the &quot;Huddil&quot; web application" classname="Scenario: Verify facebook login fuctionality" time="0.01"/>
-  <testcase name="And I click the &quot;Login&quot; button" classname="Scenario: Verify facebook login fuctionality" time="0"/>
-  <testcase name="And I click the &quot;Facebook Login&quot; element" classname="Scenario: Verify facebook login fuctionality" time="0.03"/>
-  <testcase name="Scenario: Verify facebook login fuctionality" classname="Scenario: Verify facebook login fuctionality" time="0.03"/>
-  <testcase name="Given I launch the &quot;Huddil&quot; web application" classname="Scenario: Verify forgot password functionality" time="0"/>
-  <testcase name="And I click the &quot;Login&quot; button" classname="Scenario: Verify forgot password functionality" time="0"/>
-  <testcase name="And I click the &quot;Forgot Password&quot; element" classname="Scenario: Verify forgot password functionality" time="0"/>
-  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;Registered Email&quot; field" classname="Scenario: Verify forgot password functionality" time="0"/>
-  <testcase name="And I click the &quot;Reset My Password&quot; button" classname="Scenario: Verify forgot password functionality" time="0.01"/>
-  <testcase name="Scenario: Verify forgot password functionality" classname="Scenario: Verify forgot password functionality" time="0.01"/>
-  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I click the &quot;Add Facility&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I select &quot;Conference Room&quot; from the &quot;Select Facility Type&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I click the &quot;Add Location&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
-  <testcase name="And I select &quot;Bangalore&quot; from the &quot;Select City&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I select &quot;JP Nagar&quot; from the &quot;Locality&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;bilekahalli&quot; in the &quot;Please Enter Name&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;dsr galleria&quot; in the &quot;Please Enter address&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;signal&quot; in the &quot;Please Enter landmark&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;incubex&quot; in the &quot;Please Enter nearBy&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;These terms and conditions, are subjected to change from time to time, shall apply to all our services&quot; in the &quot;Terms And Conditions&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I click the &quot;Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I select &quot;bilekahalli&quot; from the &quot;Building/Location&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;conference 999&quot; in the &quot;Facility Meeting Room Name&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;100&quot; in the &quot;Facility No Of Seats&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;1000&quot; in the &quot;Facility Area Size Sq&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;adding conference room&quot; in the &quot;Facility Description&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I wait &quot;30&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I check the following checkboxes" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
-  <testcase name="And I click the &quot;Next&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;10&quot; in the &quot;Cost Per Hour&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;100&quot; in the &quot;Cost Per Day&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;1000&quot; in the &quot;Cost Per Month&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I click the &quot;Offer Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;2018-03-2&quot; in the &quot;From&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;2018-03-2&quot; in the &quot;To&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Offer&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I click the &quot;Cancel Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;1&quot; in the &quot;No Of Days Before&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Deduction&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;2&quot; in the &quot;No Of Days Before2&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;20&quot; in the &quot;% Of Deduction2&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;3&quot; in the &quot;No Of Days Before3&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
-  <testcase name="And I enter &quot;30&quot; in the &quot;% Of Deduction3&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;8497995311&quot; in the &quot;Sp Contact Number&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;Sp Email&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I select &quot;Both&quot; from the &quot;Payment Mode&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I check the &quot;Request Huddil Verfication&quot; checkbox" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I click the &quot;Next2&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="And I click the &quot;Submit&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="Then I click the &quot;Success OK&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0"/>
-  <testcase name="Scenario: Verify Conference Facility Creation" classname="Scenario: Verify Conference Facility Creation" time="0.001"/>
+  <testcase name="And I enter &quot;incubex&quot; in the &quot;Please Enter nearBy&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;These terms and conditions, are subjected to change from time to time, shall apply to all our services&quot; in the &quot;Terms And Conditions&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;bilekahalli&quot; from the &quot;Building/Location&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;conference 999&quot; in the &quot;Facility Meeting Room Name&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Facility No Of Seats&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;1000&quot; in the &quot;Facility Area Size Sq&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;adding conference room&quot; in the &quot;Facility Description&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;30&quot; seconds" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I check the following checkboxes" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Next&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;10&quot; in the &quot;Cost Per Hour&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Cost Per Day&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;1000&quot; in the &quot;Cost Per Month&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Offer Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2018-03-2&quot; in the &quot;From&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2018-03-2&quot; in the &quot;To&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Offer&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Cancel Add&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;1&quot; in the &quot;No Of Days Before&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Deduction&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2&quot; in the &quot;No Of Days Before2&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;20&quot; in the &quot;% Of Deduction2&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;3&quot; in the &quot;No Of Days Before3&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;30&quot; in the &quot;% Of Deduction3&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;8497995311&quot; in the &quot;Sp Contact Number&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;Sp Email&quot; field" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;Both&quot; from the &quot;Payment Mode&quot; dropdown" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I check the &quot;Request Huddil Verfication&quot; checkbox" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Next2&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Submit&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Success OK&quot; button" classname="Scenario: Verify Conference Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify  conference Block Facility" time="0.005">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.01 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Do nothing
+Verify  conference Block Facility
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 3058
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify  conference Block Facility" classname="Scenario: Verify  conference Block Facility" time="0.008">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.01 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;conference 1&quot; in the &quot;Facility Title&quot; field" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Search&quot; button" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;5&quot; seconds" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;5&quot; seconds" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I select the facility &quot;conference 1&quot;" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;3&quot; seconds" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Manage Facility&quot; button" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select the &quot;Block Facility&quot; radiobutton" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2018-04-20 18:00:00&quot; in the &quot;From Date&quot; field" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2018-04-30 19:00:00&quot; in the &quot;To Date&quot; field" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Block Facility&quot; button" classname="Scenario: Verify  conference Block Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify  conference Deactivate Facility" time="0.003">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.02 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Do nothing
+Verify  conference Deactivate Facility
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 6731
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify  conference Deactivate Facility" classname="Scenario: Verify  conference Deactivate Facility" time="0.009">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.02 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;conf 3&quot; in the &quot;Facility Title&quot; field" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Search&quot; button" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;5&quot; seconds" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I select the facility &quot;conf 3&quot;" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Manage Facility&quot; button" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;10&quot; seconds" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;10&quot; seconds" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select the &quot;Deactivate Facility&quot; radiobutton" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;Not good&quot; in the &quot;Reason For Deactivation&quot; field" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Deactivate&quot; button" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Confirm&quot; button" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify  conference Deactivate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify  conference Activate Facility" time="0.005">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.02 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Do nothing
+Verify  conference Activate Facility
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 6702
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify  conference Activate Facility" classname="Scenario: Verify  conference Activate Facility" time="0.007">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.02 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;conf 3&quot; in the &quot;Facility Title&quot; field" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Search&quot; button" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;5&quot; seconds" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I select the facility &quot;conf 3&quot;" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Manage Facility&quot; button" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;10&quot; seconds" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;10&quot; seconds" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select the &quot;Activate Facility&quot; radiobutton" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Activate&quot; button" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify  conference Activate Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify  conference Price Details Facility" time="0.001">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.01 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Do nothing
+Verify  conference Price Details Facility
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 30704
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify  conference Price Details Facility" classname="Scenario: Verify  conference Price Details Facility" time="0.007">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.01 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;conf 3&quot; in the &quot;Facility Title&quot; field" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Search&quot; button" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I select the facility &quot;conf 3&quot;" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Manage Facility&quot; button" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;10&quot; seconds" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select the &quot;Price Details&quot; radiobutton" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;2&quot; seconds" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;10&quot; in the &quot;Update Cost Per Hour&quot; field" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Update Cost Per Day&quot; field" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;1000&quot; in the &quot;Update Cost Per Month&quot; field" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Update Price&quot; button" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify  conference Price Details Facility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify  conference facility edit" time="0.007">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.03 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Do nothing
+Verify  conference facility edit
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 20917
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify  conference facility edit" classname="Scenario: Verify  conference facility edit" time="0.011">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.03 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Filter&quot; button" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;Conference Room&quot; from the &quot;SelectFacilityType1&quot; dropdown" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;Denied&quot; from the &quot;Select Status&quot; dropdown" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Search&quot; button" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;5&quot; seconds" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I select the facility &quot;conference 12&quot;" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Edit&quot; button" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Facility No Of Seats&quot; field" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Next&quot; button" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Next3&quot; button" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Submit&quot; button" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify  conference facility edit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify conference cancelled booking" time="0.003">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.06 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.06 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Do nothing
+Verify conference cancelled booking
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 13525
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify conference cancelled booking" classname="Scenario: Verify conference cancelled booking" time="0.009">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.06 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.06 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the &quot;Booking&quot; element" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;305&quot; in the &quot;Booking Id&quot; field" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Search&quot; button" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;5&quot; seconds" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the element with booking id &quot;305&quot; and booking status &quot;Confirmed&quot;" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Cancel Booking&quot; button" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;YES&quot; button" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Success OK&quot; button" classname="Scenario: Verify conference cancelled booking" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am logged into the application with user &quot;myappssolutions33@gmail.com&quot; and password &quot;password1&quot;" classname="Scenario: Verify Coworking Facility Creation" time="0.001">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.01 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+    <system-out><![CDATA[Do nothing
+Verify Coworking Facility Creation
+@Sanity1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 8685
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify Coworking Facility Creation" classname="Scenario: Verify Coworking Facility Creation" time="0.002">
+    <error message="unknown error: Chrome failed to start: exited abnormally&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.01 seconds&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;ip-172-31-18-1&apos;, ip: &apos;172.31.18.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1052-aws&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Linux 4.4.0-1052-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-172-31-18-1', ip: '172.31.18.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1052-aws', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+</error>
+  </testcase>
+  <testcase name="And I wait &quot;20&quot; seconds" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the &quot;Service Provider&quot; page should load" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the &quot;Facility&quot; element" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Add Facility&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;Co-Working Space&quot; from the &quot;Select Facility Type&quot; dropdown" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Add Location&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;Bangalore&quot; from the &quot;Select City&quot; dropdown" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;JP Nagar&quot; from the &quot;Locality&quot; dropdown" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;bilekahalli&quot; in the &quot;Please Enter Name&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;dsr galleria&quot; in the &quot;Please Enter address&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;signal&quot; in the &quot;Please Enter landmark&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;incubex&quot; in the &quot;Please Enter nearBy&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Add&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;OK&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;bilekahalli&quot; from the &quot;Building/Location&quot; dropdown" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;coworking 888&quot; in the &quot;Facility Meeting Room Name&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Facility No Of Seats&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;1000&quot; in the &quot;Facility Area Size Sq&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;adding coworking room&quot; in the &quot;Facility Description&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;30&quot; seconds" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I check the following checkboxes" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Next&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;100&quot; in the &quot;Cost Per Day&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;1000&quot; in the &quot;Cost Per Month&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Offer Add&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2018-03-3&quot; in the &quot;From&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2018-03-4&quot; in the &quot;To&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Offer&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Cancel Add&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;1&quot; in the &quot;No Of Days Before&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;10&quot; in the &quot;% Of Deduction&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;2&quot; in the &quot;No Of Days Before2&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;20&quot; in the &quot;% Of Deduction2&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;3&quot; in the &quot;No Of Days Before3&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;30&quot; in the &quot;% Of Deduction3&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;8497995311&quot; in the &quot;Sp Contact Number&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter &quot;aparna.b@myapps-solutions.com&quot; in the &quot;Sp Email&quot; field" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select &quot;Offline&quot; from the &quot;Payment Mode&quot; dropdown" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I check the &quot;Request Huddil Verfication&quot; checkbox" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Next2&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the &quot;Submit&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I wait &quot;80&quot; seconds" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I click the &quot;Success OK&quot; button" classname="Scenario: Verify Coworking Facility Creation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="stepDefinitions.CukesRunnerTest" classname="stepDefinitions.CukesRunnerTest" time="0.055">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.CukesRunnerTest.cleanUp(CukesRunnerTest.java:48)
+</error>
+    <system-out><![CDATA[Do nothing
+After Class!!
+]]></system-out>
+  </testcase>
 </testsuite>
